@@ -16,6 +16,8 @@ public class ExitOnClick : MonoBehaviour {
 
     void OnMouseDown()
     {
-        Destroy(this.gameObject);
+        //Fade out level to black
+        //Then change scene to street view
+
     }
 }
