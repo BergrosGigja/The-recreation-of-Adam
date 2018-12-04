@@ -1,0 +1,41 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class AdamControllerScript : MonoBehaviour {
+
+	Animator anim;
+	Vector2 targetPos;
+	Vector2 mouse;
+
+	void Start () {
+
+		anim = GetComponent<Animator>();
+		targetPos = transform.position;
+	}
+
+	void Update ()
+	{
+        if (Input.GetMouseButton(0))
+        {
+            mouse = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition);
+			targetPos = new Vector2(mouse.x, transform.position.y);
+            if ((targetPos.x >= transform.position.x))
+            {
+                transform.localScale = new Vector2(1.0f, 1.0f);
+            }
+            else
+            {
+                transform.localScale = new Vector2(-1.0f, 1.0f);
+            }
+        }
+        if ((Vector2)transform.position != targetPos)
+        {
+			anim.SetBool("walking", true);
+            transform.position = Vector2.MoveTowards(transform.position, targetPos, Time.deltaTime);
+        } else {
+			anim.SetBool("walking", false);
+		}
+    }
+}
+
