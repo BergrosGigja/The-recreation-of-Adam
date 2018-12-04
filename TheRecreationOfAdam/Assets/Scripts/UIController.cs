@@ -5,16 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class UIController : MonoBehaviour {
 
-    
     public Animator animator;
     private int levelToLoad;
 
-    public GameObject book;
+    public GameObject InfoObject;
     public GameObject objectInfoText;
 
 	// Update is called once per frame
 	void Update () 
     {
+        //If left button is pushed
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
@@ -22,6 +22,7 @@ public class UIController : MonoBehaviour {
 
             if (Physics.Raycast(ray, out hit))
             {
+                //If object called Interactive was clicked on, Fade to next level.
                 if (hit.transform.name == "Interactive") FadeToNextLevel();
             }
         }
@@ -29,28 +30,25 @@ public class UIController : MonoBehaviour {
 
     public void FadeToNextLevel()
     {
-        Debug.Log("Your active scene is: " + SceneManager.GetActiveScene().buildIndex);
+        //Get the next scene to load
         FadeToLevel(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void FadeToLevel(int levelIndex)
     {
         levelToLoad = levelIndex;
-        Debug.Log("Your scene to load is: " + levelToLoad);
         animator.SetTrigger("FadeOut");
     }
 
     public void OnFadeComplete()
     {
-        Debug.Log("Fade has completed");
-
         SceneManager.LoadScene(levelToLoad);
     }
 
-    public void OnBookClicked()
+    //For Library level where you click on book and it disappears
+    //and behind the book is a color blob
+    public void OnInfoObjectClicked()
     {
-        Destroy(book);
-        Debug.Log("Book has been destroyed");
         objectInfoText.SetActive(true);
     }
 }

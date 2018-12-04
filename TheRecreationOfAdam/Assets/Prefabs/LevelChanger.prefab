@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 95339764781325634}
   - component: {fileID: 114903984531142298}
   m_Layer: 0
-  m_Name: Level Changer
+  m_Name: LevelChanger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  book: {fileID: 0}
+  InfoObject: {fileID: 0}
   objectInfoText: {fileID: 0}
 --- !u!222 &222487925215926884
 CanvasRenderer:

@@ -27,8 +27,10 @@ public class SpriteOnHover : MonoBehaviour {
 
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.transform.name == "Book") {
-                    _UIController.OnBookClicked();
+                //If left clicked an object with name InfoObject
+                //call the UIController's function to deploy text box
+                if (hit.transform.name == "InfoObject") {
+                    _UIController.OnInfoObjectClicked();
                 }
             }
         }
