@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4973060676921218}
   - component: {fileID: 95339764781325634}
-  - component: {fileID: 114774939648154938}
+  - component: {fileID: 114903984531142298}
   m_Layer: 0
   m_Name: Level Changer
   m_TagString: Untagged
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &114774939648154938
+--- !u!114 &114903984531142298
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -167,10 +167,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1570057975876038}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddf1d1c8c574e492f9fb01865117fb5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 2a64881a36f7e4e5ca5e13e4b6ca49f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 95339764781325634}
+  animator: {fileID: 0}
+  book: {fileID: 0}
+  objectInfoText: {fileID: 0}
 --- !u!222 &222487925215926884
 CanvasRenderer:
   m_ObjectHideFlags: 1

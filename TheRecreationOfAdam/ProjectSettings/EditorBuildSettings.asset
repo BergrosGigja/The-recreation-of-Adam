@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Street View/StreetView_Iris.unity
     guid: 9036277f131084e17ba46ab0ba6a0af7
+  - enabled: 1
+    path: Assets/Scenes/Library/Library_Iris.unity
+    guid: ad43252356c5a4be8a46ec83459124f0
   m_configObjects: {}
