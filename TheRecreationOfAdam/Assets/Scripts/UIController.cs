@@ -9,6 +9,7 @@ public class UIController : MonoBehaviour {
     private int levelToLoad;
 
     public GameObject InfoObject;
+    public GameObject ObjectToDestroy;
     public GameObject objectInfoText;
 
 	// Update is called once per frame
@@ -24,6 +25,7 @@ public class UIController : MonoBehaviour {
             {
                 //If object called Interactive was clicked on, Fade to next level.
                 if (hit.transform.name == "Interactive") FadeToNextLevel();
+                if (hit.transform.name == "BlobBehind") BlobAppear();
             }
         }
     }
@@ -50,5 +52,10 @@ public class UIController : MonoBehaviour {
     public void OnInfoObjectClicked()
     {
         objectInfoText.SetActive(true);
+    }
+
+    public void BlobAppear()
+    {
+        Destroy(ObjectToDestroy);
     }
 }
