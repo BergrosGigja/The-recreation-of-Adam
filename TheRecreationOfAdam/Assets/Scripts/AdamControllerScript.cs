@@ -14,28 +14,31 @@ public class AdamControllerScript : MonoBehaviour {
 		targetPos = transform.position;
 	}
 
-	void Update ()
-	{
-        if (Input.GetMouseButton(0))
-        {
+	void Update () {
+
+        if (Input.GetMouseButton(0)) {
             mouse = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			targetPos = new Vector2(mouse.x, transform.position.y);
-            if ((targetPos.x >= transform.position.x))
-            {
+            if ((targetPos.x >= transform.position.x)) {
                 transform.localScale = new Vector2(1.0f, 1.0f);
             }
-            else
-            {
+            else {
                 transform.localScale = new Vector2(-1.0f, 1.0f);
             }
         }
-        if ((Vector2)transform.position != targetPos)
-        {
+        if (Vector2.Distance(targetPos, transform.position) > 0.2) {
 			anim.SetBool("walking", true);
             transform.position = Vector2.MoveTowards(transform.position, targetPos, Time.deltaTime);
         } else {
 			anim.SetBool("walking", false);
 		}
+    }
+
+    void OnCollisionStay2D(Collision2D other) {
+        if(other.gameObject.tag == "Wall") {
+            anim.SetBool("walking", false);
+            targetPos = new Vector2(transform.position.x, transform.position.y);
+        }
     }
 }
 
