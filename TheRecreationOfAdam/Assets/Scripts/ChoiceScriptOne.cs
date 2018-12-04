@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class ChoiceScriptOne : MonoBehaviour {
-
+	//creating the objects used for the dialog
+	public GameObject Activate;
 	public GameObject TextBox;
 	public GameObject Option01;
 	public GameObject Option02;
@@ -13,12 +14,21 @@ public class ChoiceScriptOne : MonoBehaviour {
 	public GameObject Option05;
 
 	public int SelectedAnwer;
+
 	public void Start()
 	{
+		Activate.SetActive(false);
+	}
+
+	void OnMouseDown()
+	{
+		Activate.SetActive(true);
 		Option04.SetActive(false);
 		Option05.SetActive(false);
 	}
 
+
+	//What happens if you choose each answer for the first question
 	public void ChoiceOption1() 
 	{
 		TextBox.GetComponent<Text>().text = "You were in a car accident 10 years ago.";
@@ -50,6 +60,7 @@ public class ChoiceScriptOne : MonoBehaviour {
 		}
 	}
 	
+	//What happens if you choose each answer for the second question
 	public void ChoiceOption4() 
 	{
 		TextBox.GetComponent<Text>().text = "All the colors are gone.";
