@@ -74,9 +74,11 @@ public class ChoiceScriptOne : MonoBehaviour {
 	}
 	void LateUpdate () 
 	{
-		if(SelectedAnwer >= 4){
-				Option04.SetActive(false);
-				Option05.SetActive(false);
+		if(SelectedAnwer >= 4)
+		{
+			Option04.SetActive(false);
+			Option05.SetActive(false);
+			return;
 		}
 	}
 }
