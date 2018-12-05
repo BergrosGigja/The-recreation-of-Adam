@@ -51,3 +51,6 @@ TagManager:
   - name: blob
     uniqueID: 445271361
     locked: 0
+  - name: Doorway
+    uniqueID: 1239138561
+    locked: 0

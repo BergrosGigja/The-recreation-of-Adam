@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpriteOnHover : MonoBehaviour {
 
     SpriteRenderer m_SpriteRenderer;
-    Color m_MouseOverColor = Color.gray;
+    Color m_MouseOverColor = Color.white;
     Color m_OriginalColor;
     bool isClicked = false;
 
@@ -29,8 +29,13 @@ public class SpriteOnHover : MonoBehaviour {
             {
                 //If left clicked an object with name InfoObject
                 //call the UIController's function to deploy text box
-                if (hit.transform.name == "InfoObject") {
+                if (hit.transform.name == "InfoObject") 
+                {
                     _UIController.OnInfoObjectClicked();
+                }
+                if (hit.transform.name == "Interactive")
+                {
+                    _UIController.FadeToNextLevel();
                 }
             }
         }
