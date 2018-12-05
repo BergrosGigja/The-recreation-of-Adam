@@ -7,6 +7,7 @@ public class AdamControllerScript : MonoBehaviour {
 	Animator anim;
 	Vector2 targetPos;
 	Vector2 mouse;
+    private float speed = 3f;
 
 	void Start () {
 
@@ -28,7 +29,7 @@ public class AdamControllerScript : MonoBehaviour {
         }
         if (Vector2.Distance(targetPos, transform.position) > 0.2) {
 			anim.SetBool("walking", true);
-            transform.position = Vector2.MoveTowards(transform.position, targetPos, Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
         } else {
 			anim.SetBool("walking", false);
 		}
