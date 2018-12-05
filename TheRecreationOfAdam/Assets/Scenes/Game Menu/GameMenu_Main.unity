@@ -130,7 +130,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4912775035607116, guid: 72c16c53a5b128d4cadeeb933a4fa571, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 89.28
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4912775035607116, guid: 72c16c53a5b128d4cadeeb933a4fa571, type: 2}
       propertyPath: m_LocalRotation.x
@@ -165,20 +165,39 @@ Prefab:
     - target: {fileID: 212241265209590406, guid: 72c16c53a5b128d4cadeeb933a4fa571,
         type: 2}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1602106259305720, guid: 72c16c53a5b128d4cadeeb933a4fa571, type: 2}
       propertyPath: m_Name
       value: WalkingAdam
       objectReference: {fileID: 0}
+    - target: {fileID: 212241265209590406, guid: 72c16c53a5b128d4cadeeb933a4fa571,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212241265209590406, guid: 72c16c53a5b128d4cadeeb933a4fa571,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212241265209590406, guid: 72c16c53a5b128d4cadeeb933a4fa571,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602106259305720, guid: 72c16c53a5b128d4cadeeb933a4fa571, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 50902108473144398, guid: 72c16c53a5b128d4cadeeb933a4fa571,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c16c53a5b128d4cadeeb933a4fa571, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &73505622 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1602106259305720, guid: 72c16c53a5b128d4cadeeb933a4fa571,
-    type: 2}
-  m_PrefabInternal: {fileID: 73505621}
 --- !u!1 &235661820
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,7 +209,7 @@ GameObject:
   - component: {fileID: 235661823}
   - component: {fileID: 235661822}
   - component: {fileID: 235661821}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -320,7 +339,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: -25.65
   far clip plane: 1000
   field of view: 60
   orthographic: 1
@@ -346,8 +365,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 381744235}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.24042799}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -470,7 +489,7 @@ Prefab:
         type: 2}
       propertyPath: AdamDelete
       value: 
-      objectReference: {fileID: 73505622}
+      objectReference: {fileID: 0}
     - target: {fileID: 224716378427709046, guid: 0c61d94bbf3214030bc0c46a13cb1d8a,
         type: 2}
       propertyPath: m_LocalPosition.z
@@ -483,11 +502,29 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1660512981937424, guid: 0c61d94bbf3214030bc0c46a13cb1d8a, type: 2}
       propertyPath: m_Layer
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1660512981937424, guid: 0c61d94bbf3214030bc0c46a13cb1d8a, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 95339764781325634, guid: 0c61d94bbf3214030bc0c46a13cb1d8a,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1cd0268b862b14f4ba51bcb7458c9f64, type: 2}
+    - target: {fileID: 224563828258856122, guid: 0c61d94bbf3214030bc0c46a13cb1d8a,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606557233162042, guid: 0c61d94bbf3214030bc0c46a13cb1d8a, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1570057975876038, guid: 0c61d94bbf3214030bc0c46a13cb1d8a, type: 2}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c61d94bbf3214030bc0c46a13cb1d8a, type: 2}
@@ -574,7 +611,7 @@ GameObject:
   - component: {fileID: 1250090273}
   - component: {fileID: 1250090275}
   - component: {fileID: 1250090274}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -643,7 +680,7 @@ GameObject:
   - component: {fileID: 1364611418}
   - component: {fileID: 1364611420}
   - component: {fileID: 1364611419}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -808,7 +845,7 @@ GameObject:
   - component: {fileID: 1610711166}
   - component: {fileID: 1610711170}
   - component: {fileID: 1610711169}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Interactive
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -959,7 +996,7 @@ GameObject:
   - component: {fileID: 1870257752}
   - component: {fileID: 1870257751}
   - component: {fileID: 1870257753}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 95339764781325634}
   - component: {fileID: 114903984531142298}
   m_Layer: 0
-  m_Name: LevelChanger
+  m_Name: BetweenLvlFade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -172,7 +172,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   InfoObject: {fileID: 0}
-  objectInfoText: {fileID: 0}
+  ObjectToDestroy: {fileID: 0}
+  objectInfoSprite: {fileID: 0}
+  AdamDelete: {fileID: 0}
 --- !u!222 &222487925215926884
 CanvasRenderer:
   m_ObjectHideFlags: 1

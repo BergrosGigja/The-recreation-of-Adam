@@ -40,8 +40,7 @@ public class UIController : MonoBehaviour {
     {
         levelToLoad = levelIndex;
         animator.SetTrigger("FadeOut");
-        Destroy(AdamDelete);
-        Debug.Log("Fade to level");
+        //Destroy(AdamDelete);
     }
 
     public void OnFadeComplete()

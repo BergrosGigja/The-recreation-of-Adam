@@ -506,6 +506,11 @@ Prefab:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 95828178314872432, guid: bd8a2d3f237bb3d4c9bde596f6385508,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 83534ce224e884d44b63340bf8c1ae97, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd8a2d3f237bb3d4c9bde596f6385508, type: 2}
   m_IsPrefabAsset: 0
