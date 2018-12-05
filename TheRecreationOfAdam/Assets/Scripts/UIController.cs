@@ -10,7 +10,8 @@ public class UIController : MonoBehaviour {
 
     public GameObject InfoObject;
     public GameObject ObjectToDestroy;
-    public GameObject objectInfoText;
+    public GameObject objectInfoSprite;
+    public GameObject AdamDelete;
 
 	// Update is called once per frame
 	void Update () 
@@ -24,7 +25,6 @@ public class UIController : MonoBehaviour {
             if (Physics.Raycast(ray, out hit))
             {
                 //If object called Interactive was clicked on, Fade to next level.
-                if (hit.transform.name == "Interactive") FadeToNextLevel();
                 if (hit.transform.name == "BlobBehind") BlobAppear();
             }
         }
@@ -40,6 +40,8 @@ public class UIController : MonoBehaviour {
     {
         levelToLoad = levelIndex;
         animator.SetTrigger("FadeOut");
+        Destroy(AdamDelete);
+        Debug.Log("Fade to level");
     }
 
     public void OnFadeComplete()
@@ -51,7 +53,7 @@ public class UIController : MonoBehaviour {
     //and behind the book is a color blob
     public void OnInfoObjectClicked()
     {
-        objectInfoText.SetActive(true);
+        objectInfoSprite.SetActive(true);
     }
 
     public void BlobAppear()

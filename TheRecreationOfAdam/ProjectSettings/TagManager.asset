@@ -37,7 +37,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - MostFront
   m_SortingLayers:
   - name: Default
     uniqueID: 0
@@ -50,4 +50,7 @@ TagManager:
     locked: 0
   - name: blob
     uniqueID: 445271361
+    locked: 0
+  - name: Doorway
+    uniqueID: 1239138561
     locked: 0
