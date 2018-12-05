@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Street View/StreetView_Main.unity
     guid: e92fe7ab3996b413792747ae36694c19
+  - enabled: 1
+    path: Assets/Scenes/Library/Library_Main.unity
+    guid: ea464ca6c77ec4805a545dfc7ebc9ab8
   m_configObjects: {}

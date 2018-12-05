@@ -29,13 +29,21 @@ public class SpriteOnHover : MonoBehaviour {
             {
                 //If left clicked an object with name InfoObject
                 //call the UIController's function to deploy text box
-                if (hit.transform.name == "InfoObject") 
+                if (hit.transform.name == "InfoObject")
                 {
                     _UIController.OnInfoObjectClicked();
                 }
-                if (hit.transform.name == "Interactive")
+                else if (hit.transform.name == "Interactive")
                 {
                     _UIController.FadeToNextLevel();
+                }
+                else if (hit.transform.name == "BackToPrevLevel")
+                {
+                    _UIController.FadeToPrevLevel();
+                }
+                else if (hit.transform.name == "BlobBehind")
+                {
+                    _UIController.BlobAppear();
                 }
             }
         }
