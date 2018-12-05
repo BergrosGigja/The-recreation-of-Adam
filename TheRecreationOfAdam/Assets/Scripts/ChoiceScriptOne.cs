@@ -78,7 +78,6 @@ public class ChoiceScriptOne : MonoBehaviour {
 		{
 			Option04.SetActive(false);
 			Option05.SetActive(false);
-			return;
 		}
 	}
 }
