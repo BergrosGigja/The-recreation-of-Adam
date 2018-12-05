@@ -25,7 +25,6 @@ public class UIController : MonoBehaviour {
             if (Physics.Raycast(ray, out hit))
             {
                 //If object called Interactive was clicked on, Fade to next level.
-                if (hit.transform.name == "Interactive") FadeToNextLevel();
                 if (hit.transform.name == "BlobBehind") BlobAppear();
             }
         }
@@ -42,6 +41,7 @@ public class UIController : MonoBehaviour {
         levelToLoad = levelIndex;
         animator.SetTrigger("FadeOut");
         Destroy(AdamDelete);
+        Debug.Log("Fade to level");
     }
 
     public void OnFadeComplete()
