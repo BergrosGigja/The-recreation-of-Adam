@@ -11,6 +11,7 @@ public class UIController : MonoBehaviour {
     public GameObject InfoObject;
     public GameObject ObjectToDestroy;
     public GameObject objectInfoSprite;
+    public GameObject AdamDelete;
 
 	// Update is called once per frame
 	void Update () 
@@ -40,6 +41,7 @@ public class UIController : MonoBehaviour {
     {
         levelToLoad = levelIndex;
         animator.SetTrigger("FadeOut");
+        Destroy(AdamDelete);
     }
 
     public void OnFadeComplete()
