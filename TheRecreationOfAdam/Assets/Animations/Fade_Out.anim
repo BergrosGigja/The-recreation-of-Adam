@@ -167,7 +167,7 @@ AnimationClip:
     intParameter: 2
     messageOptions: 0
   - time: 1
-    functionName: OnFadeComplete
+    functionName: FadeToNextLevel
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
