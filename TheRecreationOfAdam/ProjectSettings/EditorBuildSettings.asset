@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Hospital/Hospital_Iris.unity
+    guid: 78beb637fa708486e9c7bb01e22a5bae
+  - enabled: 1
+    path: Assets/Scenes/Street View/StreetView_Iris.unity
+    guid: 9036277f131084e17ba46ab0ba6a0af7
+  - enabled: 1
+    path: Assets/Scenes/Library/Library_Iris.unity
+    guid: ad43252356c5a4be8a46ec83459124f0
   m_configObjects: {}
