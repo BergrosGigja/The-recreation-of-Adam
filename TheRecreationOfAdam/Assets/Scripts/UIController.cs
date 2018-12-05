@@ -10,7 +10,7 @@ public class UIController : MonoBehaviour {
 
     public GameObject InfoObject;
     public GameObject ObjectToDestroy;
-    public GameObject objectInfoText;
+    public GameObject objectInfoSprite;
 
 	// Update is called once per frame
 	void Update () 
@@ -51,7 +51,7 @@ public class UIController : MonoBehaviour {
     //and behind the book is a color blob
     public void OnInfoObjectClicked()
     {
-        objectInfoText.SetActive(true);
+        objectInfoSprite.SetActive(true);
     }
 
     public void BlobAppear()
