@@ -16,15 +16,16 @@ public class AdamControllerScript : MonoBehaviour {
 	}
 
 	void Update () {
-
         if (Input.GetMouseButton(0)) {
             mouse = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition);
-			targetPos = new Vector2(mouse.x, transform.position.y);
-            if ((targetPos.x >= transform.position.x)) {
-                transform.localScale = new Vector2(1.0f, 1.0f);
-            }
-            else {
-                transform.localScale = new Vector2(-1.0f, 1.0f);
+            if(mouse.y <= 0.0f) {
+                targetPos = new Vector2(mouse.x, transform.position.y);
+                if ((targetPos.x >= transform.position.x)) {
+                    transform.localScale = new Vector2(1.0f, 1.0f);
+                }
+                else {
+                    transform.localScale = new Vector2(-1.0f, 1.0f);
+                }
             }
         }
         if (Vector2.Distance(targetPos, transform.position) > 0.2) {
