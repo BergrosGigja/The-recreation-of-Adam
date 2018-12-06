@@ -8,7 +8,6 @@ public class UIController : MonoBehaviour {
     public Animator animator;
     private int levelToLoad;
 
-    public GameObject InfoObject;
     public GameObject ObjectToDestroy;
     public GameObject objectInfoSprite;
     public GameObject AdamDelete;
