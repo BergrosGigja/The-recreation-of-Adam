@@ -200,8 +200,8 @@ public class DialogLibrary : MonoBehaviour {
 	public void ChoiceOption13()
 	{
 		TextBox.GetComponent<Text>().text = "They scary";
-		Option10.SetActive(false);
-		Option11.SetActive(false);
+		Option12.SetActive(false);
+		Option13.SetActive(false);
 		Option14.SetActive(true);
 		Option15.SetActive(true);
 		SelectedAnswer = 13;
