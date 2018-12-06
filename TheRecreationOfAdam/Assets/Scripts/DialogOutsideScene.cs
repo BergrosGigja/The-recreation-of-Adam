@@ -86,35 +86,35 @@ public class DialogOutsideScene : MonoBehaviour {
 	//What happens if you choose each answer for the second question
 	public void ChoiceOption4() 
 	{
-		TextBox.GetComponent<Text>().text = "I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there form when they were all disappearing.";
+		TextBox.GetComponent<Text>().text = "I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there from when they were all disappearing.";
 		SelectedAnswer = 4;
 	}
 
 	public void ChoiceOption5() 
 	{
-		TextBox.GetComponent<Text>().text = "I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there form when they were all disappearing.";
+		TextBox.GetComponent<Text>().text = "I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there from when they were all disappearing.";
 		SelectedAnswer = 5;
 	}
 	public void ChoiceOption6() 
 	{
-		TextBox.GetComponent<Text>().text = "I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there form when they were all disappearing.";
+		TextBox.GetComponent<Text>().text = "I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there from when they were all disappearing.";
 		SelectedAnswer = 6;
 	}
 
 	public void ChoiceOption7() 
 	{
-		TextBox.GetComponent<Text>().text = "I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there form when they were all disappearing.";
+		TextBox.GetComponent<Text>().text = "I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there from when they were all disappearing.";
 		SelectedAnswer = 7;
 	}
 	public void ChoiceOption8() 
 	{
-		TextBox.GetComponent<Text>().text = "I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there form when they were all disappearing.";
+		TextBox.GetComponent<Text>().text = "I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there from when they were all disappearing.";
 		SelectedAnswer = 8;
 	}
 
 	public void ChoiceOption9() 
 	{
-		TextBox.GetComponent<Text>().text = "I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there form when they were all disappearing.";
+		TextBox.GetComponent<Text>().text = "I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there from when they were all disappearing.";
 		SelectedAnswer = 9;
 	}
 	void LateUpdate () 
