@@ -8,7 +8,7 @@ public class SpriteOnHover : MonoBehaviour {
     Color m_MouseOverColor = Color.white;
     Color m_OriginalColor;
     bool isClicked = false;
-
+    public GameObject bookInfo;
     UIController _UIController;
 
     void Start()
@@ -44,6 +44,10 @@ public class SpriteOnHover : MonoBehaviour {
                 else if (hit.transform.name == "BlobBehind")
                 {
                     _UIController.BlobAppear();
+                }
+                else if (hit.transform.name == "Book")
+                {
+                    bookInfo.SetActive(true);
                 }
             }
         }

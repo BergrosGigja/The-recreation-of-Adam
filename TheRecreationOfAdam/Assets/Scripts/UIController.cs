@@ -10,7 +10,7 @@ public class UIController : MonoBehaviour {
 
     public GameObject ObjectToDestroy;
     public GameObject objectInfoSprite;
-    public GameObject AdamDelete;
+    public GameObject BlobToAppear;
 
     public void FadeToNextLevel()
     {
@@ -28,7 +28,6 @@ public class UIController : MonoBehaviour {
     {
         levelToLoad = levelIndex;
         animator.SetTrigger("FadeOut");
-        //Destroy(AdamDelete);
     }
 
     public void OnFadeComplete()
@@ -46,5 +45,6 @@ public class UIController : MonoBehaviour {
     public void BlobAppear()
     {
         Destroy(ObjectToDestroy);
+        BlobToAppear.SetActive(true);
     }
 }
