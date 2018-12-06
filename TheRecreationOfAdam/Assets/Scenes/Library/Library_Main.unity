@@ -251,7 +251,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 894803227}
         m_MethodName: ChoiceOption2
         m_Mode: 1
         m_Arguments:
@@ -1170,6 +1170,11 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 58247304501506104, guid: 0c15b040e727ec6429084ed2d27183b7,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c15b040e727ec6429084ed2d27183b7, type: 2}
   m_IsPrefabAsset: 0
@@ -1319,6 +1324,35 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1504672833214682, guid: 0c15b040e727ec6429084ed2d27183b7,
     type: 2}
   m_PrefabInternal: {fileID: 765305821}
+--- !u!114 &894803227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 894803226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c4378144049034899b9b7672aa249f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Activate: {fileID: 1881271317}
+  TextBox: {fileID: 586057889}
+  Option01: {fileID: 1548664073}
+  Option02: {fileID: 57888101}
+  Option03: {fileID: 1046495459}
+  Option04: {fileID: 1025013969}
+  Option05: {fileID: 1265799696}
+  Option06: {fileID: 1468879982}
+  Option07: {fileID: 1276771397}
+  Option08: {fileID: 1633877968}
+  Option09: {fileID: 1839083424}
+  Option10: {fileID: 1132142214}
+  Option11: {fileID: 1201490288}
+  Option12: {fileID: 1923075582}
+  Option13: {fileID: 1528740523}
+  Option14: {fileID: 1535900984}
+  Option15: {fileID: 1893248496}
+  SelectedAnswer: 0
 --- !u!1 &903164819
 GameObject:
   m_ObjectHideFlags: 0
@@ -1635,7 +1669,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 894803227}
         m_MethodName: ChoiceOption4
         m_Mode: 1
         m_Arguments:
@@ -1763,7 +1797,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 894803227}
         m_MethodName: ChoiceOption3
         m_Mode: 1
         m_Arguments:
@@ -2161,7 +2195,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 894803227}
         m_MethodName: ChoiceOption10
         m_Mode: 1
         m_Arguments:
@@ -2368,7 +2402,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 894803227}
         m_MethodName: ChoiceOption11
         m_Mode: 1
         m_Arguments:
@@ -2686,7 +2720,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 894803227}
         m_MethodName: ChoiceOption5
         m_Mode: 1
         m_Arguments:
@@ -2895,7 +2929,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 894803227}
         m_MethodName: ChoiceOption7
         m_Mode: 1
         m_Arguments:
@@ -3307,7 +3341,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 894803227}
         m_MethodName: ChoiceOption6
         m_Mode: 1
         m_Arguments:
@@ -3435,7 +3469,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 894803227}
         m_MethodName: ChoiceOption13
         m_Mode: 1
         m_Arguments:
@@ -3563,7 +3597,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 894803227}
         m_MethodName: ChoiceOption14
         m_Mode: 1
         m_Arguments:
@@ -3691,7 +3725,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 894803227}
         m_MethodName: ChoiceOption1
         m_Mode: 1
         m_Arguments:
@@ -3819,7 +3853,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 894803227}
         m_MethodName: ChoiceOption8
         m_Mode: 1
         m_Arguments:
@@ -4170,7 +4204,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 894803227}
         m_MethodName: ChoiceOption9
         m_Mode: 1
         m_Arguments:
@@ -4407,7 +4441,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 894803227}
         m_MethodName: ChoiceOption15
         m_Mode: 1
         m_Arguments:
@@ -4515,7 +4549,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 894803227}
         m_MethodName: ChoiceOption12
         m_Mode: 1
         m_Arguments:
