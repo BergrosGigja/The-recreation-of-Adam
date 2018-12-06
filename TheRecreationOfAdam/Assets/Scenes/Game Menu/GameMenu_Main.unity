@@ -449,7 +449,7 @@ Prefab:
     - target: {fileID: 224563828258856122, guid: 0c61d94bbf3214030bc0c46a13cb1d8a,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -2
+      value: 7.2
       objectReference: {fileID: 0}
     - target: {fileID: 224563828258856122, guid: 0c61d94bbf3214030bc0c46a13cb1d8a,
         type: 2}
@@ -459,7 +459,7 @@ Prefab:
     - target: {fileID: 224563828258856122, guid: 0c61d94bbf3214030bc0c46a13cb1d8a,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 425
+      value: 438.6
       objectReference: {fileID: 0}
     - target: {fileID: 224563828258856122, guid: 0c61d94bbf3214030bc0c46a13cb1d8a,
         type: 2}
@@ -525,6 +525,16 @@ Prefab:
     - target: {fileID: 1570057975876038, guid: 0c61d94bbf3214030bc0c46a13cb1d8a, type: 2}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224716378427709046, guid: 0c61d94bbf3214030bc0c46a13cb1d8a,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 10.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224716378427709046, guid: 0c61d94bbf3214030bc0c46a13cb1d8a,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 20.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c61d94bbf3214030bc0c46a13cb1d8a, type: 2}
@@ -969,10 +979,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1010859731}
-  InfoObject: {fileID: 0}
   ObjectToDestroy: {fileID: 0}
   objectInfoSprite: {fileID: 0}
-  AdamDelete: {fileID: 0}
+  BlobToAppear: {fileID: 0}
 --- !u!65 &1610711170
 BoxCollider:
   m_ObjectHideFlags: 0
