@@ -27,8 +27,11 @@ public class DialogOutsideScene : MonoBehaviour {
 	void OnMouseDown()
 	{
 		Activate.SetActive(true);
-		Option04.SetActive(false);
-		Option05.SetActive(false);
+        Option01.SetActive(true);
+        Option02.SetActive(true);
+        Option03.SetActive(true);
+        Option04.SetActive(false);
+        Option05.SetActive(false);
 		Option06.SetActive(false);
 		Option07.SetActive(false);
 		Option08.SetActive(false);
@@ -74,7 +77,12 @@ public class DialogOutsideScene : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-
+		if (Input.GetMouseButtonDown(1))
+        {
+            Activate.SetActive(false);
+            TextBox.GetComponent<Text>().text = "What do you want?";
+			SelectedAnswer = 0;
+        }
 	}
 	
 	//What happens if you choose each answer for the second question

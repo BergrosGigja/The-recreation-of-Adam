@@ -89,6 +89,12 @@ public class DialogLibrary : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
+		if (Input.GetMouseButtonDown(1))
+        {
+            Activate.SetActive(false);
+            SelectedAnswer = 0;
+            TextBox.GetComponent<Text>().text = "You found me!";
+        }
 	}
 	public void ChoiceOption4() 
 	{
