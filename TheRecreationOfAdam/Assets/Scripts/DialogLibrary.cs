@@ -22,7 +22,6 @@ public class DialogLibrary : MonoBehaviour {
 	public GameObject Option13;
 	public GameObject Option14;
 	public GameObject Option15;
-
 	public int SelectedAnswer;
 
 	public void Start()
@@ -171,12 +170,6 @@ public class DialogLibrary : MonoBehaviour {
 	public void ChoiceOption10()
 	{
 		TextBox.GetComponent<Text>().text = "I scared";
-		//Option04.SetActive(false);
-		//Option05.SetActive(false);
-		///Option06.SetActive(false);
-		//Option07.SetActive(false);
-		//Option08.SetActive(false);
-		//Option09.SetActive(false);
 		Option10.SetActive(false);
 		Option11.SetActive(false);
 		Option12.SetActive(true);
@@ -187,12 +180,6 @@ public class DialogLibrary : MonoBehaviour {
 	public void ChoiceOption11()
 	{
 		TextBox.GetComponent<Text>().text = "I scared";
-		//Option04.SetActive(false);
-		//Option05.SetActive(false);
-		//Option06.SetActive(false);
-		//Option07.SetActive(false);
-		//Option08.SetActive(false);
-		//Option09.SetActive(false);
 		Option10.SetActive(false);
 		Option11.SetActive(false);
 		Option12.SetActive(true);
