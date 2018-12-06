@@ -2078,6 +2078,26 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 1.0099998
       objectReference: {fileID: 0}
+    - target: {fileID: 114734069428566100, guid: dd0850f9e3dad1b4dbed6a989aabb5e5,
+        type: 2}
+      propertyPath: bookInfo1
+      value: 
+      objectReference: {fileID: 1405885965}
+    - target: {fileID: 114734069428566100, guid: dd0850f9e3dad1b4dbed6a989aabb5e5,
+        type: 2}
+      propertyPath: bookInfo2
+      value: 
+      objectReference: {fileID: 545779724}
+    - target: {fileID: 114734069428566100, guid: dd0850f9e3dad1b4dbed6a989aabb5e5,
+        type: 2}
+      propertyPath: bookInfo3
+      value: 
+      objectReference: {fileID: 2041989374}
+    - target: {fileID: 114734069428566100, guid: dd0850f9e3dad1b4dbed6a989aabb5e5,
+        type: 2}
+      propertyPath: bookInfo4
+      value: 
+      objectReference: {fileID: 602000788}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd0850f9e3dad1b4dbed6a989aabb5e5, type: 2}
   m_IsPrefabAsset: 0
@@ -3043,10 +3063,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 473666761746f4e4d97dda60e8b78671, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bookInfo1: {fileID: 0}
-  bookInfo2: {fileID: 0}
-  bookInfo3: {fileID: 0}
-  bookInfo4: {fileID: 0}
+  bookInfo1: {fileID: 1405885965}
+  bookInfo2: {fileID: 545779724}
+  bookInfo3: {fileID: 2041989374}
+  bookInfo4: {fileID: 602000788}
 --- !u!65 &1297795574
 BoxCollider:
   m_ObjectHideFlags: 0

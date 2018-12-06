@@ -7,7 +7,6 @@ public class SpriteOnHover : MonoBehaviour {
     SpriteRenderer m_SpriteRenderer;
     Color m_MouseOverColor = Color.white;
     Color m_OriginalColor;
-    bool isClicked = false;
     public GameObject bookInfo1;
     public GameObject bookInfo2;
     public GameObject bookInfo3;
