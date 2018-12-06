@@ -33,6 +33,9 @@ public class DialogLibrary : MonoBehaviour {
 	void OnMouseDown()
 	{
 		Activate.SetActive(true);
+		Option01.SetActive(true);
+		Option02.SetActive(true);
+		Option03.SetActive(true);
 		Option04.SetActive(false);
 		Option05.SetActive(false);
 		Option06.SetActive(false);
@@ -92,8 +95,8 @@ public class DialogLibrary : MonoBehaviour {
 		if (Input.GetMouseButtonDown(1))
         {
             Activate.SetActive(false);
-            SelectedAnswer = 0;
             TextBox.GetComponent<Text>().text = "You found me!";
+			SelectedAnswer = 0;
         }
 	}
 	public void ChoiceOption4() 
@@ -168,12 +171,12 @@ public class DialogLibrary : MonoBehaviour {
 	public void ChoiceOption10()
 	{
 		TextBox.GetComponent<Text>().text = "I scared";
-		Option04.SetActive(false);
-		Option05.SetActive(false);
-		Option06.SetActive(false);
-		Option07.SetActive(false);
-		Option08.SetActive(false);
-		Option09.SetActive(false);
+		//Option04.SetActive(false);
+		//Option05.SetActive(false);
+		///Option06.SetActive(false);
+		//Option07.SetActive(false);
+		//Option08.SetActive(false);
+		//Option09.SetActive(false);
 		Option10.SetActive(false);
 		Option11.SetActive(false);
 		Option12.SetActive(true);
@@ -184,12 +187,12 @@ public class DialogLibrary : MonoBehaviour {
 	public void ChoiceOption11()
 	{
 		TextBox.GetComponent<Text>().text = "I scared";
-		Option04.SetActive(false);
-		Option05.SetActive(false);
-		Option06.SetActive(false);
-		Option07.SetActive(false);
-		Option08.SetActive(false);
-		Option09.SetActive(false);
+		//Option04.SetActive(false);
+		//Option05.SetActive(false);
+		//Option06.SetActive(false);
+		//Option07.SetActive(false);
+		//Option08.SetActive(false);
+		//Option09.SetActive(false);
 		Option10.SetActive(false);
 		Option11.SetActive(false);
 		Option12.SetActive(true);
