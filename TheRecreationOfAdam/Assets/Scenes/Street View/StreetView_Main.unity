@@ -238,8 +238,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 65}
-  m_SizeDelta: {x: 560, y: 90}
+  m_AnchoredPosition: {x: 9, y: 0}
+  m_SizeDelta: {x: 600, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &121715434
 GameObject:
@@ -366,7 +366,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: -25}
+  m_AnchoredPosition: {x: 9, y: -110}
   m_SizeDelta: {x: 560, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &124177252 stripped
@@ -583,7 +583,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 65}
+  m_AnchoredPosition: {x: 9, y: 0}
   m_SizeDelta: {x: 560, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &372359041
@@ -701,7 +701,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -823,7 +823,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 473666761746f4e4d97dda60e8b78671, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bookInfo: {fileID: 0}
+  bookInfo1: {fileID: 0}
+  bookInfo2: {fileID: 0}
+  bookInfo3: {fileID: 0}
+  bookInfo4: {fileID: 0}
 --- !u!65 &465637365
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -872,7 +875,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: -25}
+  m_AnchoredPosition: {x: 9, y: -110}
   m_SizeDelta: {x: 560, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &465990566
@@ -1089,7 +1092,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 65}
+  m_AnchoredPosition: {x: 9, y: 0}
   m_SizeDelta: {x: 560, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &676740314
@@ -1301,8 +1304,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: -115}
-  m_SizeDelta: {x: 560, y: 90}
+  m_AnchoredPosition: {x: 9, y: -220}
+  m_SizeDelta: {x: 600, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &868480412
 GameObject:
@@ -1348,8 +1351,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 189.25}
-  m_SizeDelta: {x: 0, y: 361.5}
+  m_AnchoredPosition: {x: 0, y: 129.25}
+  m_SizeDelta: {x: 0, y: 241.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &868480414
 CanvasRenderer:
@@ -1557,7 +1560,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: -25}
+  m_AnchoredPosition: {x: 9, y: -110}
   m_SizeDelta: {x: 560, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1011352076
@@ -1685,7 +1688,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 65}
+  m_AnchoredPosition: {x: 9, y: 0}
   m_SizeDelta: {x: 560, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1020617539
@@ -2055,8 +2058,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: -25}
-  m_SizeDelta: {x: 560, y: 90}
+  m_AnchoredPosition: {x: 9, y: -110}
+  m_SizeDelta: {x: 600, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1344008285
 GameObject:
@@ -2318,7 +2321,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 473666761746f4e4d97dda60e8b78671, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bookInfo: {fileID: 0}
+  bookInfo1: {fileID: 0}
+  bookInfo2: {fileID: 0}
+  bookInfo3: {fileID: 0}
+  bookInfo4: {fileID: 0}
 --- !u!65 &1581345899
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2506,7 +2512,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.519989, y: 0}
+  m_AnchoredPosition: {x: 3.5195312, y: 0}
   m_SizeDelta: {x: -7.04, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1732885840
@@ -2784,14 +2790,14 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
-    m_MaxSize: 40
+    m_MaxSize: 52
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: What do you want?
+  m_Text: 'One Eyed Joe: What do you want?'
 --- !u!222 &2128818649
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2816,6 +2822,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 224}
+  m_AnchoredPosition: {x: 9, y: 170}
   m_SizeDelta: {x: 560, y: 230}
   m_Pivot: {x: 0.5, y: 0.5}
