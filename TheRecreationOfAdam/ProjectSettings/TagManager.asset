@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Wall
+  - People
+  - Backgrounds
   layers:
   - Default
   - TransparentFX
@@ -15,6 +17,7 @@ TagManager:
   - 
   - 
   - Background Image
+  - Front
   - 
   - 
   - 
@@ -36,8 +39,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - MostFront
   m_SortingLayers:
   - name: Default
     uniqueID: 0
@@ -45,9 +47,15 @@ TagManager:
   - name: Background
     uniqueID: 221576759
     locked: 0
+  - name: behindPlayer
+    uniqueID: 4192761835
+    locked: 0
   - name: Player
     uniqueID: 1695881273
     locked: 0
   - name: blob
     uniqueID: 445271361
+    locked: 0
+  - name: Doorway
+    uniqueID: 1239138561
     locked: 0

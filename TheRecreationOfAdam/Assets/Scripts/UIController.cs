@@ -8,32 +8,20 @@ public class UIController : MonoBehaviour {
     public Animator animator;
     private int levelToLoad;
 
-    public GameObject InfoObject;
     public GameObject ObjectToDestroy;
     public GameObject objectInfoSprite;
-
-	// Update is called once per frame
-	void Update () 
-    {
-        //If left button is pushed
-        if (Input.GetMouseButtonDown(0))
-        {
-            RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-
-            if (Physics.Raycast(ray, out hit))
-            {
-                //If object called Interactive was clicked on, Fade to next level.
-                if (hit.transform.name == "Interactive") FadeToNextLevel();
-                if (hit.transform.name == "BlobBehind") BlobAppear();
-            }
-        }
-    }
+    public GameObject BlobToAppear;
 
     public void FadeToNextLevel()
     {
         //Get the next scene to load
         FadeToLevel(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void FadeToPrevLevel()
+    {
+        //Get the next scene to load
+        FadeToLevel(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
     public void FadeToLevel(int levelIndex)
@@ -57,5 +45,6 @@ public class UIController : MonoBehaviour {
     public void BlobAppear()
     {
         Destroy(ObjectToDestroy);
+        BlobToAppear.SetActive(true);
     }
 }
