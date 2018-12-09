@@ -35,19 +35,19 @@ public class ChoiceScriptOne : MonoBehaviour
     //What happens if you choose each answer for the first question
     public void ChoiceOption1()
     {
-        TextBox.GetComponent<Text>().text = "You were in a car accident 10 years ago.";
+        TextBox.GetComponent<Text>().text = "Nurse: You were in a car accident 10 years ago.";
         SelectedAnswer = 1;
     }
 
     public void ChoiceOption2()
     {
-        TextBox.GetComponent<Text>().text = "You are at the hospital.";
+        TextBox.GetComponent<Text>().text = "Nurse: You are at the hospital.";
         SelectedAnswer = 2;
     }
 
     public void ChoiceOption3()
     {
-        TextBox.GetComponent<Text>().text = "You have been in a coma for 10 years. Alot has happened.";
+        TextBox.GetComponent<Text>().text = "Nurse: You have been in a coma for 10 years. Alot has happened.";
         SelectedAnswer = 3;
     }
 
@@ -68,20 +68,20 @@ public class ChoiceScriptOne : MonoBehaviour
         {
             Activate.SetActive(false);
             SelectedAnswer = 0;
-            TextBox.GetComponent<Text>().text = "Adam, why are you up?";
+            TextBox.GetComponent<Text>().text = "Nurse: Adam, why are you up?";
         }
     }
 
     //What happens if you choose each answer for the second question
     public void ChoiceOption4()
     {
-        TextBox.GetComponent<Text>().text = "All the colors are gone.";
+        TextBox.GetComponent<Text>().text = "Nurse: All the colors are gone.";
         SelectedAnswer = 4;
     }
 
     public void ChoiceOption5()
     {
-        TextBox.GetComponent<Text>().text = "All the colors are gone.";
+        TextBox.GetComponent<Text>().text = "Nurse: All the colors are gone.";
         SelectedAnswer = 5;
     }
     void LateUpdate()
