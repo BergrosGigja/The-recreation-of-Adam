@@ -1978,8 +1978,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 12, z: 0.20000003}
-  m_Center: {x: 19.51, y: -5.2, z: 0}
+  m_Size: {x: 25, y: 12, z: 0.20000003}
+  m_Center: {x: 31.4, y: -5.2, z: 0}
 --- !u!212 &1327739149
 SpriteRenderer:
   m_ObjectHideFlags: 0
