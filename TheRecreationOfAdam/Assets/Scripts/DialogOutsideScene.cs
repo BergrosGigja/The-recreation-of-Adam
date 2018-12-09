@@ -29,7 +29,7 @@ public class DialogOutsideScene : MonoBehaviour {
 		if (Input.GetMouseButtonDown(1))
         {
             Activate.SetActive(false);
-            TextBox.GetComponent<Text>().text = "What do you want?";
+            TextBox.GetComponent<Text>().text = "One Eyed Joe: What do you want?";
 			SelectedAnswer = 0;
         }
 	}
@@ -52,7 +52,7 @@ public class DialogOutsideScene : MonoBehaviour {
 	//What happens if you choose each answer for the first question
 	public void ChoiceOption1() 
 	{
-		TextBox.GetComponent<Text>().text = "The colors?";
+		TextBox.GetComponent<Text>().text = "One Eyed Joe: The colors?";
 		SelectedAnswer = 1;
 		Option01.SetActive(false);
 		Option02.SetActive(false);
@@ -63,7 +63,7 @@ public class DialogOutsideScene : MonoBehaviour {
 
 	public void ChoiceOption2() 
 	{
-		TextBox.GetComponent<Text>().text = "What colors?";
+		TextBox.GetComponent<Text>().text = "One Eyed Joe: What colors?";
 		SelectedAnswer = 2;
 		Option01.SetActive(false);
 		Option02.SetActive(false);
@@ -74,7 +74,7 @@ public class DialogOutsideScene : MonoBehaviour {
 
 	public void ChoiceOption3() 
 	{
-		TextBox.GetComponent<Text>().text = "What do you mean?";
+		TextBox.GetComponent<Text>().text = "One Eyed Joe: What do you mean?";
 		SelectedAnswer = 3;
 		Option01.SetActive(false);
 		Option02.SetActive(false);
@@ -86,35 +86,35 @@ public class DialogOutsideScene : MonoBehaviour {
 	//What happens if you choose each answer for the second question
 	public void ChoiceOption4() 
 	{
-		TextBox.GetComponent<Text>().text = "I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there from when they were all disappearing.";
+		TextBox.GetComponent<Text>().text = "One Eyed Joe: I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there from when they were all disappearing.";
 		SelectedAnswer = 4;
 	}
 
 	public void ChoiceOption5() 
 	{
-		TextBox.GetComponent<Text>().text = "I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there from when they were all disappearing.";
+		TextBox.GetComponent<Text>().text = "One Eyed Joe: I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there from when they were all disappearing.";
 		SelectedAnswer = 5;
 	}
 	public void ChoiceOption6() 
 	{
-		TextBox.GetComponent<Text>().text = "I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there from when they were all disappearing.";
+		TextBox.GetComponent<Text>().text = "One Eyed Joe: I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there from when they were all disappearing.";
 		SelectedAnswer = 6;
 	}
 
 	public void ChoiceOption7() 
 	{
-		TextBox.GetComponent<Text>().text = "I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there from when they were all disappearing.";
+		TextBox.GetComponent<Text>().text = "One Eyed Joe: I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there from when they were all disappearing.";
 		SelectedAnswer = 7;
 	}
 	public void ChoiceOption8() 
 	{
-		TextBox.GetComponent<Text>().text = "I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there from when they were all disappearing.";
+		TextBox.GetComponent<Text>().text = "One Eyed Joe: I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there from when they were all disappearing.";
 		SelectedAnswer = 8;
 	}
 
 	public void ChoiceOption9() 
 	{
-		TextBox.GetComponent<Text>().text = "I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there from when they were all disappearing.";
+		TextBox.GetComponent<Text>().text = "One Eyed Joe: I’m sorry pal. I’m not sure what happened to them. Maybe you should check out the library. There are still some old newspapers there from when they were all disappearing.";
 		SelectedAnswer = 9;
 	}
 	void LateUpdate () 
