@@ -619,9 +619,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 488c7127-94a2-4a23-89a4-7d11016bc362
+  cloudProjectId: a063fa94-1293-43d3-83e2-ba53dba8500d
   projectName: TheRecreationOfAdam
-  organizationId: unity_ssantn-792cuxq
+  organizationId: annals16
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
