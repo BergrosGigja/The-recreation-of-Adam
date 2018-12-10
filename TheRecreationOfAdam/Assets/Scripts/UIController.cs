@@ -9,7 +9,7 @@ public class UIController : MonoBehaviour {
     private int levelToLoad;
 
     public GameObject objectInfoSprite;
-    public GameObject BlobToAppear;
+    public GameObject playerInScene;
 
     public void FadeToNextLevel()
     {
