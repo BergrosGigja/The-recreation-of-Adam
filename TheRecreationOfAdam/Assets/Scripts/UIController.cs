@@ -8,7 +8,6 @@ public class UIController : MonoBehaviour {
     public Animator animator;
     private int levelToLoad;
 
-    public GameObject ObjectToDestroy;
     public GameObject objectInfoSprite;
     public GameObject BlobToAppear;
 
@@ -37,14 +36,14 @@ public class UIController : MonoBehaviour {
 
     //For Library level where you click on book and it disappears
     //and behind the book is a color blob
-    public void OnInfoObjectClicked()
+    public void OnHoverObjectClicked(GameObject objectToAppear)
     {
-        objectInfoSprite.SetActive(true);
+        objectToAppear.SetActive(true);
     }
 
-    public void BlobAppear()
+    public void BlobAppear(GameObject objectToDestroy,GameObject ObjectToAppear)
     {
-        Destroy(ObjectToDestroy);
-        BlobToAppear.SetActive(true);
+        Destroy(objectToDestroy);
+        ObjectToAppear.SetActive(true);
     }
 }
