@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class DialogOutsideScene : MonoBehaviour {
 	//creating the objects used for the dialog
 	public GameObject Activate;
+	public GameObject Exit;
 	public GameObject TextBox;
 	public GameObject Option01;
 	public GameObject Option02;
@@ -26,12 +27,11 @@ public class DialogOutsideScene : MonoBehaviour {
 
 	void Update () 
 	{
-		if (Input.GetMouseButtonDown(1))
-        {
-            Activate.SetActive(false);
-            TextBox.GetComponent<Text>().text = "One Eyed Joe: What do you want?";
-			SelectedAnswer = 0;
-        }
+		if(Activate.activeSelf == false)
+		{
+           SelectedAnswer = 0;
+           TextBox.GetComponent<Text>().text = "One Eyed Joe: What do you want?";
+		}
 	}
 
 	void OnMouseDown()
