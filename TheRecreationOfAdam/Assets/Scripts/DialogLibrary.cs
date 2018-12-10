@@ -53,7 +53,7 @@ public class DialogLibrary : MonoBehaviour {
 	//What happens if you choose each answer for the first question
 	public void ChoiceOption1() 
 	{
-		TextBox.GetComponent<Text>().text = "I left";
+		TextBox.GetComponent<Text>().text = "Blob: I left";
 		Option01.SetActive(false);
 		Option02.SetActive(false);
 		Option03.SetActive(false);
@@ -65,7 +65,7 @@ public class DialogLibrary : MonoBehaviour {
 
 	public void ChoiceOption2() 
 	{
-		TextBox.GetComponent<Text>().text = "I hide";
+		TextBox.GetComponent<Text>().text = "Blob: I hide";
 		Option01.SetActive(false);
 		Option02.SetActive(false);
 		Option03.SetActive(false);
@@ -77,7 +77,7 @@ public class DialogLibrary : MonoBehaviour {
 
 	public void ChoiceOption3() 
 	{
-		TextBox.GetComponent<Text>().text = "I scared";
+		TextBox.GetComponent<Text>().text = "Blob: I scared";
 		Option01.SetActive(false);
 		Option02.SetActive(false);
 		Option03.SetActive(false);
@@ -94,13 +94,13 @@ public class DialogLibrary : MonoBehaviour {
 		if (Input.GetMouseButtonDown(1))
         {
             Activate.SetActive(false);
-            TextBox.GetComponent<Text>().text = "You found me!";
+            TextBox.GetComponent<Text>().text = "Blob: You found me!";
 			SelectedAnswer = 0;
         }
 	}
 	public void ChoiceOption4() 
 	{
-		TextBox.GetComponent<Text>().text = "They scary";
+		TextBox.GetComponent<Text>().text = "Blob: They scary";
 		Option04.SetActive(false);
 		Option05.SetActive(false);
 		Option06.SetActive(false);
@@ -111,7 +111,7 @@ public class DialogLibrary : MonoBehaviour {
 
 	public void ChoiceOption5()
 	{
-		TextBox.GetComponent<Text>().text = "They scary";
+		TextBox.GetComponent<Text>().text = "Blob: They scary";
 		Option04.SetActive(false);
 		Option05.SetActive(false);
 		Option06.SetActive(false);
@@ -125,7 +125,7 @@ public class DialogLibrary : MonoBehaviour {
 
 	public void ChoiceOption6()
 	{
-		TextBox.GetComponent<Text>().text = "They scary";
+		TextBox.GetComponent<Text>().text = "Blob: They scary";
 		Option04.SetActive(false);
 		Option05.SetActive(false);
 		Option06.SetActive(false);
@@ -136,7 +136,7 @@ public class DialogLibrary : MonoBehaviour {
 	}
 	public void ChoiceOption7()
 	{
-		TextBox.GetComponent<Text>().text = "They scary";
+		TextBox.GetComponent<Text>().text = "Blob: They scary";
 		Option05.SetActive(false);
 		Option06.SetActive(false);
 		Option07.SetActive(false);
@@ -147,7 +147,7 @@ public class DialogLibrary : MonoBehaviour {
 
 	public void ChoiceOption8()
 	{
-		TextBox.GetComponent<Text>().text = "They scary";
+		TextBox.GetComponent<Text>().text = "Blob: They scary";
 		Option05.SetActive(false);
 		Option08.SetActive(false);
 		Option09.SetActive(false);
@@ -158,7 +158,7 @@ public class DialogLibrary : MonoBehaviour {
 	
 	public void ChoiceOption9()
 	{
-		TextBox.GetComponent<Text>().text = "They scary";
+		TextBox.GetComponent<Text>().text = "Blob: They scary";
 		Option05.SetActive(false);
 		Option08.SetActive(false);
 		Option09.SetActive(false);
@@ -169,7 +169,7 @@ public class DialogLibrary : MonoBehaviour {
 
 	public void ChoiceOption10()
 	{
-		TextBox.GetComponent<Text>().text = "I scared";
+		TextBox.GetComponent<Text>().text = "Blob: I scared";
 		Option10.SetActive(false);
 		Option11.SetActive(false);
 		Option12.SetActive(true);
@@ -179,7 +179,7 @@ public class DialogLibrary : MonoBehaviour {
 
 	public void ChoiceOption11()
 	{
-		TextBox.GetComponent<Text>().text = "I scared";
+		TextBox.GetComponent<Text>().text = "Blob: I scared";
 		Option10.SetActive(false);
 		Option11.SetActive(false);
 		Option12.SetActive(true);
@@ -189,7 +189,7 @@ public class DialogLibrary : MonoBehaviour {
 
 	public void ChoiceOption12()
 	{
-		TextBox.GetComponent<Text>().text = "They scary";
+		TextBox.GetComponent<Text>().text = "Blob: They scary";
 		Option12.SetActive(false);
 		Option13.SetActive(false);
 		Option14.SetActive(true);
@@ -199,7 +199,7 @@ public class DialogLibrary : MonoBehaviour {
 
 	public void ChoiceOption13()
 	{
-		TextBox.GetComponent<Text>().text = "They scary";
+		TextBox.GetComponent<Text>().text = "Blob: They scary";
 		Option12.SetActive(false);
 		Option13.SetActive(false);
 		Option14.SetActive(true);
@@ -210,7 +210,7 @@ public class DialogLibrary : MonoBehaviour {
 	public void ChoiceOption14()
 	{
 		SelectedAnswer = 14;
-		TextBox.GetComponent<Text>().text = "OK. I be purple";
+		TextBox.GetComponent<Text>().text = "Blob: OK. I be purple";
 		Option14.SetActive(false);
 		Option15.SetActive(false);
 
@@ -219,7 +219,7 @@ public class DialogLibrary : MonoBehaviour {
 	public void ChoiceOption15()
 	{
 		SelectedAnswer = 15;
-		TextBox.GetComponent<Text>().text = "OK. I be purple";
+		TextBox.GetComponent<Text>().text = "Blob: OK. I be purple";
 		Option14.SetActive(false);
 		Option15.SetActive(false);
 	}
