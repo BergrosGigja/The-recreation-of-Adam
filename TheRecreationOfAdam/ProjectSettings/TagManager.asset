@@ -7,6 +7,10 @@ TagManager:
   - Wall
   - People
   - Backgrounds
+  - HoverItem
+  - DestroyItem
+  - FadeToLevel
+  - FadeToPrevLvl
   layers:
   - Default
   - TransparentFX
@@ -18,7 +22,7 @@ TagManager:
   - 
   - Background Image
   - Front
-  - 
+  - Interactive
   - 
   - 
   - 
