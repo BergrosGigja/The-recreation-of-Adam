@@ -22,7 +22,7 @@ public class SpriteOnHover : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+ /*       if (Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -33,7 +33,7 @@ public class SpriteOnHover : MonoBehaviour {
                 //call the UIController's function to deploy text box
                 if (hit.transform.name == "InfoObject")
                 {
-                    _UIController.OnInfoObjectClicked();
+                    _UIController.OnInfoObjectClicked(bookInfo1);
                 }
                 else if (hit.transform.name == "Interactive")
                 {
@@ -45,7 +45,7 @@ public class SpriteOnHover : MonoBehaviour {
                 }
                 else if (hit.transform.name == "BlobBehind")
                 {
-                    _UIController.BlobAppear();
+                    _UIController.BlobAppear(bookInfo1, bookInfo2);
                 }
                 else if (hit.transform.name == "Book1")
                 {
@@ -64,7 +64,7 @@ public class SpriteOnHover : MonoBehaviour {
                     bookInfo4.SetActive(true);
                 }
             }
-        }
+        }*/
     }
 
     void OnMouseOver()
