@@ -7,6 +7,7 @@ public class ChoiceScriptOne : MonoBehaviour
 {
     //creating the objects used for the dialog
     public GameObject Activate;
+    public GameObject Exit;
     public GameObject TextBox;
     public GameObject Option01;
     public GameObject Option02;
@@ -64,12 +65,13 @@ public class ChoiceScriptOne : MonoBehaviour
             Option05.SetActive(true);
         }
 
-        if (Input.GetMouseButtonDown(1))
-        {
-            Activate.SetActive(false);
-            SelectedAnswer = 0;
-            TextBox.GetComponent<Text>().text = "Nurse: Adam, why are you up?";
-        }
+        
+       if(Activate.activeSelf == false)
+       {
+           SelectedAnswer = 0;
+           TextBox.GetComponent<Text>().text = "Nurse: Adam, why are you up?";
+       }
+        
     }
 
     //What happens if you choose each answer for the second question
