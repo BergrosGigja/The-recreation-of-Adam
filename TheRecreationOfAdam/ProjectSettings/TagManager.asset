@@ -9,6 +9,8 @@ TagManager:
   - Backgrounds
   - HoverItem
   - DestroyItem
+  - FadeToLevel
+  - FadeToPrevLvl
   layers:
   - Default
   - TransparentFX
