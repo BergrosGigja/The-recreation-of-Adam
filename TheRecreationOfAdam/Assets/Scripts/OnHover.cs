@@ -35,9 +35,13 @@ public class OnHover : MonoBehaviour
                 //Debug.Log(transform.name + " // " + hit.collider.name);
                 _UIController.OnHoverObjectClicked(ObjectToAppear);
             }
-            else if(hit.collider != null && hit.collider.name == "BlobBehind")
+            else if(hit.collider != null && hit.collider.tag == "FadeToLevel")
             {
-                _UIController.BlobAppear(gameObject, ObjectToAppear);
+                _UIController.FadeToNextLevel();
+            }
+            else if (hit.collider != null && hit.collider.tag == "FadeToPrevLvl")
+            {
+                _UIController.FadeToPrevLevel();
             }
         }
     }
