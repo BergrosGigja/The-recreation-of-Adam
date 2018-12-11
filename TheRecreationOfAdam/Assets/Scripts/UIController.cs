@@ -8,9 +8,6 @@ public class UIController : MonoBehaviour {
     public Animator animator;
     private int levelToLoad;
 
-    public GameObject objectInfoSprite;
-    public GameObject playerInScene;
-
     public void FadeToNextLevel()
     {
         //Get the next scene to load
