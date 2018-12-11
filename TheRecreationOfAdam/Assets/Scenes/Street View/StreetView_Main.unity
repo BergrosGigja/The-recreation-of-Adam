@@ -335,6 +335,95 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c61d94bbf3214030bc0c46a13cb1d8a, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1001 &379299777
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 817207143}
+    m_Modifications:
+    - target: {fileID: 4341459180314542, guid: 0c15b040e727ec6429084ed2d27183b7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -37.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 4341459180314542, guid: 0c15b040e727ec6429084ed2d27183b7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4341459180314542, guid: 0c15b040e727ec6429084ed2d27183b7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4341459180314542, guid: 0c15b040e727ec6429084ed2d27183b7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4341459180314542, guid: 0c15b040e727ec6429084ed2d27183b7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4341459180314542, guid: 0c15b040e727ec6429084ed2d27183b7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4341459180314542, guid: 0c15b040e727ec6429084ed2d27183b7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4341459180314542, guid: 0c15b040e727ec6429084ed2d27183b7, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 212891292621482114, guid: 0c15b040e727ec6429084ed2d27183b7,
+        type: 2}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504672833214682, guid: 0c15b040e727ec6429084ed2d27183b7, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c15b040e727ec6429084ed2d27183b7, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1 &379299778 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1504672833214682, guid: 0c15b040e727ec6429084ed2d27183b7,
+    type: 2}
+  m_PrefabInternal: {fileID: 379299777}
+--- !u!114 &379299779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 379299778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2dff18a88154495da2f19d4340b7b76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1293019210}
+  moveSpeed: 1
+--- !u!50 &379299784
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 379299778}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 6
 --- !u!1 &445019140 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1687814651038568, guid: c0f41779987c11b4dabc684e9c071a5d,
@@ -496,7 +585,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 817207143}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &638017470
 SpriteRenderer:
@@ -530,8 +619,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1695881273
-  m_SortingLayer: 3
+  m_SortingLayerID: -102205461
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e2fd54895be744477baea4a055e874e3, type: 3}
   m_Color: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}

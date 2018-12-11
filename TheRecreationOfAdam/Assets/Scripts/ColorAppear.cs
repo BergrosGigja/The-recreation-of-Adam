@@ -11,13 +11,6 @@ public class ColorAppear : MonoBehaviour {
     public GameObject player;
     public Collider2D[] objInScene;
 
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.green;
-        Gizmos.DrawSphere(player.transform.position, 5f);
-    }
-
     private void FixedUpdate()
     {
         objInsideZone = Physics2D.OverlapCircleAll(player.transform.position, 5f);
