@@ -11,6 +11,7 @@ public class OnHover : MonoBehaviour
     public GameObject ObjectToAppear;
     UIController _UIController;
     BoxCollider2D m_boxCollider;
+    public bool DeleteItemOnClick;
     // Use this for initialization
     void Start()
     {
@@ -34,7 +35,10 @@ public class OnHover : MonoBehaviour
             {
                 if (ObjectToAppear != null)
                 {
-                    Debug.Log(transform.name + " // " + hit.collider.name);
+                    if(DeleteItemOnClick)
+                    {
+                        Destroy(gameObject);
+                    }
                     _UIController.OnHoverObjectClicked(ObjectToAppear);
                 }
             }

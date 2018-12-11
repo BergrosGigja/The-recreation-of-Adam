@@ -4,12 +4,12 @@ using UnityEngine;
 using TMPro;
 
 public class CheckCorrectNum : MonoBehaviour {
-    public Animator anim;
+    Animator anim;
     bool Button1 = false;
     bool Button2 = false;
     bool Button3 = false;
     bool Button4 = false;
-
+    public GameObject objToDestroy;
 
     void Start()
     {
@@ -61,5 +61,6 @@ public class CheckCorrectNum : MonoBehaviour {
     void StartAnimation()
     {
         anim.SetBool("Open", true);
+        Destroy(objToDestroy);
     }
 }
