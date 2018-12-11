@@ -8,6 +8,7 @@ public class NumLockController : MonoBehaviour {
     List<int> list;
     int index;
     public TextMeshProUGUI score;
+    public int correctNum;
 
     // Use this for initialization
     void Start () {
@@ -34,6 +35,7 @@ public class NumLockController : MonoBehaviour {
 
     public void ClickButton()
     {
+        CheckIfCorrectNum(correctNum);
         if (index == 10)
         {
             index = 0;
@@ -41,5 +43,16 @@ public class NumLockController : MonoBehaviour {
         int printNum = list[index];
         score.text = printNum.ToString();
         index++;
+    }
+
+    public void CheckIfCorrectNum(int correctNum)
+    {
+        if (index == correctNum)
+        {
+            score.color = Color.green;
+        }
+        else{
+            score.color = Color.white;
+        }
     }
 }
