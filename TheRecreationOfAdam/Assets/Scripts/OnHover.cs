@@ -37,6 +37,7 @@ public class OnHover : MonoBehaviour
             }
             else if(hit.collider != null && hit.collider.tag == "FadeToLevel")
             {
+                Debug.Log(transform.name + " // " + hit.collider.name);
                 _UIController.FadeToNextLevel();
             }
             else if (hit.collider != null && hit.collider.tag == "FadeToPrevLvl")
