@@ -32,10 +32,14 @@ public class OnHover : MonoBehaviour
             //If something was hit, the RaycastHit2D.collider will not be null.
             if (hit.collider != null && hit.collider == m_boxCollider)
             {
-                //Debug.Log(transform.name + " // " + hit.collider.name);
-                _UIController.OnHoverObjectClicked(ObjectToAppear);
+                if (ObjectToAppear != null)
+                {
+                    Debug.Log(transform.name + " // " + hit.collider.name);
+                    _UIController.OnHoverObjectClicked(ObjectToAppear);
+                }
             }
-            else if(hit.collider != null && hit.collider.tag == "FadeToLevel")
+
+            if(hit.collider != null && hit.collider.tag == "FadeToLevel")
             {
                 Debug.Log(transform.name + " // " + hit.collider.name);
                 _UIController.FadeToNextLevel();
