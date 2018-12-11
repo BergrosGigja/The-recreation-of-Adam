@@ -11,6 +11,8 @@ TagManager:
   - DestroyItem
   - FadeToLevel
   - FadeToPrevLvl
+  - FadeToLvl
+  - ChangeColor
   layers:
   - Default
   - TransparentFX

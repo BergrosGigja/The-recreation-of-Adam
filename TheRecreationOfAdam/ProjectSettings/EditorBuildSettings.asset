@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Library/Library_Main.unity
     guid: ea464ca6c77ec4805a545dfc7ebc9ab8
+  - enabled: 1
+    path: Assets/Scenes/Museum/Museum_Main.unity
+    guid: e0ad86f9e8ec8409292227feab79d17d
   m_configObjects: {}

@@ -1291,6 +1291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectToAppear: {fileID: 0}
+  DeleteItemOnClick: 1
 --- !u!61 &1327739148
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1940,6 +1941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectToAppear: {fileID: 1413061647}
+  DeleteItemOnClick: 0
 --- !u!61 &1880679504
 BoxCollider2D:
   m_ObjectHideFlags: 0
