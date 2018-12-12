@@ -10,6 +10,8 @@ public class CheckCorrectNum : MonoBehaviour {
     bool Button3 = false;
     bool Button4 = false;
     public GameObject objToDestroy;
+    public GameObject boxLid;
+    public GameObject blob;
 
     void Start()
     {
@@ -61,6 +63,9 @@ public class CheckCorrectNum : MonoBehaviour {
     void StartAnimation()
     {
         anim.SetBool("Open", true);
+        boxLid.SetActive(true);
+        blob.SetActive(true);
         Destroy(objToDestroy);
+        anim.SetBool("BlobAppear", true);
     }
 }
