@@ -13,6 +13,9 @@ TagManager:
   - FadeToPrevLvl
   - FadeToLvl
   - ChangeColor
+  - Key
+  - Drawer
+  - Blob
   layers:
   - Default
   - TransparentFX
