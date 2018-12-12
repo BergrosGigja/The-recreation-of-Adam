@@ -6,6 +6,7 @@ public class BlobFollow : MonoBehaviour {
 
     public GameObject target;
     public float y_axis;
+    public float blobSpeed;
     Vector2 targetPos;
     Vector2 blobPos;
     bool right;
@@ -44,7 +45,7 @@ public class BlobFollow : MonoBehaviour {
         if (Vector2.Distance(blobPos, transform.position) > 0.2)
         {
             anim.SetBool("Walking", true);
-            transform.position = Vector2.MoveTowards(transform.position, blobPos, 2.5f * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, blobPos, blobSpeed * Time.deltaTime);
         }
         else
         {
