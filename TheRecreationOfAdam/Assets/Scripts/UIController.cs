@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class UIController : MonoBehaviour {
 
     public Animator animator;
     private int levelToLoad;
+    public GameObject drawerText;
 
     public void FadeToNextLevel()
     {
@@ -42,5 +44,10 @@ public class UIController : MonoBehaviour {
     {
         Destroy(objectToDestroy);
         ObjectToAppear.SetActive(true);
+    }
+
+    public void NoKeyText()
+    {
+        drawerText.SetActive(true);
     }
 }
