@@ -7,7 +7,6 @@ public class UIController : MonoBehaviour {
 
     public Animator animator;
     private int levelToLoad;
-
     public void FadeToNextLevel()
     {
         //Get the next scene to load
