@@ -1644,7 +1644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d57a621fdffa44fb88dbdf59304c8e95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObjectToAppear: {fileID: 0}
+  ObjectToAppear: {fileID: 1340506447}
   DeleteItemOnClick: 1
 --- !u!61 &1092897516
 BoxCollider2D:
@@ -1974,7 +1974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1556670217}
-  moveSpeed: 2.5
+  y_axis: -3.6
 --- !u!1 &1374526572
 GameObject:
   m_ObjectHideFlags: 0
@@ -3115,7 +3115,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4781363858781838, guid: c7a41bf0a9e1c824eacce577bea40e23, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.64
+      value: -3.6
       objectReference: {fileID: 0}
     - target: {fileID: 4781363858781838, guid: c7a41bf0a9e1c824eacce577bea40e23, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3143,7 +3143,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1540010769280666, guid: c7a41bf0a9e1c824eacce577bea40e23, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1540010769280666, guid: c7a41bf0a9e1c824eacce577bea40e23, type: 2}
       propertyPath: m_TagString
