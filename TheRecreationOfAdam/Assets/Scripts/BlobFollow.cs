@@ -7,29 +7,39 @@ public class BlobFollow : MonoBehaviour {
     public GameObject target;
     public float moveSpeed;
     Vector2 targetPos;
+    Vector2 blobPos;
+    bool right;
     // Use this for initialization
     void Start()
     {
-        targetPos = transform.position;
+        blobPos = transform.position;
+        right = false;
     }
 
     // Update is called once per frame
     void Update()
     {
         targetPos = target.transform.position;
-        if (targetPos.y <= transform.position.y)
+        if(right)
         {
-            targetPos = new Vector2(targetPos.x, transform.position.y);
-            if ((targetPos.x >= transform.position.x))
-            {
-                transform.localScale = new Vector2(1.0f, 1.0f);
-            }
-            else
-            {
-                transform.localScale = new Vector2(-1.0f, 1.0f);
-            }
+            blobPos = new Vector2(targetPos.x - 1.5f, transform.position.y);
         }
-        transform.position = Vector2.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
+        else
+        {
+            blobPos = new Vector2(targetPos.x + 1.5f, transform.position.y);
+        }
+
+        if ((blobPos.x >= transform.position.x))
+        {
+            transform.localScale = new Vector2(1.0f, 1.0f);
+            right = false;
+        }
+        else
+        {
+            transform.localScale = new Vector2(-1.0f, 1.0f);
+            right = true;
+        }
+
+        transform.position = Vector2.MoveTowards(transform.position, blobPos, moveSpeed * Time.deltaTime);
     }
 }
- 
