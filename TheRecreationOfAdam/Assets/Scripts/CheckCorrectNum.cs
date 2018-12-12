@@ -10,13 +10,12 @@ public class CheckCorrectNum : MonoBehaviour {
     bool Button3 = false;
     bool Button4 = false;
     public GameObject objToDestroy;
-    public Animator BlobAnimator;
     public GameObject boxLid;
+    public GameObject blob;
 
     void Start()
     {
         anim = GetComponent<Animator>();
-        BlobAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -65,11 +64,8 @@ public class CheckCorrectNum : MonoBehaviour {
     {
         anim.SetBool("Open", true);
         boxLid.SetActive(true);
+        blob.SetActive(true);
         Destroy(objToDestroy);
-    }
-
-    void StartBlobAnimation()
-    {
-        BlobAnimator.SetBool("BlobAppear", true);
+        anim.SetBool("BlobAppear", true);
     }
 }
