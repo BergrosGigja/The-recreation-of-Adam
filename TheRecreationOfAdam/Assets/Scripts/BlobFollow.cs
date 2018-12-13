@@ -51,6 +51,5 @@ public class BlobFollow : MonoBehaviour {
         {
             anim.SetBool("Walking", false);
         }
-
     }
 }
