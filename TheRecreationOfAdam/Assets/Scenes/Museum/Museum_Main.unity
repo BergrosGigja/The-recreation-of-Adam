@@ -839,12 +839,12 @@ Prefab:
     - target: {fileID: 224632702066607600, guid: 16f15908ecf51f94db2753e394830790,
         type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.6
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224632702066607600, guid: 16f15908ecf51f94db2753e394830790,
         type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 224632702066607600, guid: 16f15908ecf51f94db2753e394830790,
         type: 2}
@@ -1278,11 +1278,49 @@ Prefab:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 224632702066607600, guid: 16f15908ecf51f94db2753e394830790,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224632702066607600, guid: 16f15908ecf51f94db2753e394830790,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224632702066607600, guid: 16f15908ecf51f94db2753e394830790,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 224632702066607600, guid: 16f15908ecf51f94db2753e394830790,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224632702066607600, guid: 16f15908ecf51f94db2753e394830790,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224632702066607600, guid: 16f15908ecf51f94db2753e394830790,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224632702066607600, guid: 16f15908ecf51f94db2753e394830790,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 691.5
+      objectReference: {fileID: 0}
+=======
     - target: {fileID: 222125235656155520, guid: 16f15908ecf51f94db2753e394830790,
         type: 2}
       propertyPath: m_CullTransparentMesh
       value: 0
       objectReference: {fileID: 0}
+>>>>>>> 640314f76581ecea8a8e4011219b1fa49467b167
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16f15908ecf51f94db2753e394830790, type: 2}
   m_IsPrefabAsset: 0
