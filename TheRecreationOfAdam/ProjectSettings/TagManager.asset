@@ -7,16 +7,13 @@ TagManager:
   - Wall
   - People
   - Backgrounds
-  - HoverItem
-  - DestroyItem
-  - FadeToLevel
-  - FadeToPrevLvl
   - FadeToLvl
   - ChangeColor
   - SpawnPoint
   - SpawnPoints
   - Key
   - Drawer
+  - Blob
   - UIText
   layers:
   - Default

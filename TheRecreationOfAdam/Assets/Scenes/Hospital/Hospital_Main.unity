@@ -651,6 +651,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1540010769280666, guid: c7a41bf0a9e1c824eacce577bea40e23, type: 2}
+      propertyPath: m_TagString
+      value: Blob
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7a41bf0a9e1c824eacce577bea40e23, type: 2}
   m_IsPrefabAsset: 0
@@ -1020,11 +1024,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -1500,7 +1504,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 883476625}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.00000021768656}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.019214844, y: 0.014085258, z: 0.017873837}
   m_Children:
   - {fileID: 1615657990}
@@ -1509,7 +1513,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -284.9, y: -123.3}
+  m_AnchoredPosition: {x: -284.82, y: -122.87}
   m_SizeDelta: {x: 300, y: 70.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &883476627
@@ -1784,11 +1788,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1053795885}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d57a621fdffa44fb88dbdf59304c8e95, type: 3}
+  m_Script: {fileID: 11500000, guid: bbc483a26bd1e4f99bf67ce18cfeff8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObjectToAppear: {fileID: 0}
-  DeleteItemOnClick: 1
 --- !u!212 &1053795889
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1925,8 +1927,8 @@ GameObject:
   - component: {fileID: 1327739148}
   - component: {fileID: 1327739147}
   m_Layer: 10
-  m_Name: ExitDoor
-  m_TagString: FadeToLevel
+  m_Name: 2
+  m_TagString: FadeToLvl
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
