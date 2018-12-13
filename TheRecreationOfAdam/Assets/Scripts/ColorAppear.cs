@@ -13,7 +13,6 @@ public class ColorAppear : MonoBehaviour {
 
     private void FixedUpdate()
     {
-        Debug.Log("Blob is: " + blob.activeSelf);
         if (blob.activeSelf == true)
         {
 
