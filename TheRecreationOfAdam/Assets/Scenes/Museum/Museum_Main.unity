@@ -2234,6 +2234,18 @@ MonoBehaviour:
   Option05: {fileID: 1759660605}
   Option06: {fileID: 2093336829}
   SelectedAnswer: 0
+--- !u!114 &1119930103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1119930101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1f0939d300948b4690945daa38e698b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sign: {fileID: 986506585}
 --- !u!4 &1119930105 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4679140467781214, guid: 5a84452596a7c9a4285a6ee37519f205,
