@@ -66,4 +66,10 @@ public class UIController : MonoBehaviour {
         Destroy(objectToDestroy);
         ObjectToAppear.SetActive(true);
     }
+
+    public void NoKeyText(GameObject drawerText)
+    {
+        //Used for Hospital level
+        drawerText.SetActive(true);
+    }
 }
