@@ -12,13 +12,17 @@ public class OnHover : MonoBehaviour
     UIController _UIController;
     BoxCollider2D m_boxCollider;
     public bool DeleteItemOnClick;
+    bool KeyClicked;
+    GameObject DrawerText;
     // Use this for initialization
     void Start()
     {
         m_SpriteRenderer = GetComponent<SpriteRenderer>();
         m_OriginalColor = m_SpriteRenderer.color;
         _UIController = FindObjectOfType<UIController>();
+        DrawerText = GameObject.Find("DrawerLockedText");
         m_boxCollider = GetComponent<BoxCollider2D>();
+        KeyClicked = false;
     }
 
     // Update is called once per frame
@@ -33,28 +37,45 @@ public class OnHover : MonoBehaviour
             //If something was hit, the RaycastHit2D.collider will not be null.
             if (hit.collider != null && hit.collider == m_boxCollider)
             {
-                if (ObjectToAppear != null)
+                if (ObjectToAppear != null && ObjectToAppear.name != "Green_blob")
                 {
-                    if(DeleteItemOnClick)
+                    if (DeleteItemOnClick)
                     {
                         Destroy(gameObject);
                     }
                     _UIController.OnHoverObjectClicked(ObjectToAppear);
                 }
-            }
 
-            if(hit.collider != null && hit.collider.tag == "FadeToLevel")
-            {
-                Debug.Log(transform.name + " // " + hit.collider.name);
-                _UIController.FadeToNextLevel();
-            }
-            else if (hit.collider != null && hit.collider.tag == "FadeToPrevLvl")
-            {
-                _UIController.FadeToPrevLevel();
-            }
-            else if (hit.collider != null && hit.collider.tag == "FadeToLvl")
-            {
-                _UIController.FadeToLevel(int.Parse(hit.collider.name));
+                if (hit.collider != null && hit.collider.tag == "FadeToLevel")
+                {
+                    Debug.Log(transform.name + " // " + hit.collider.name);
+                    _UIController.FadeToNextLevel();
+                }
+                else if (hit.collider != null && hit.collider.tag == "FadeToPrevLvl")
+                {
+                    _UIController.FadeToPrevLevel();
+                }
+                else if (hit.collider != null && hit.collider.tag == "FadeToLvl")
+                {
+                    _UIController.FadeToLevel(int.Parse(hit.collider.name));
+                }
+                else if (hit.collider != null && hit.collider.tag == "Key")
+                {
+                    KeyClicked = true;
+                    Debug.Log("KeyClicked in Key = " + KeyClicked);
+                }
+                else if (hit.collider != null && hit.collider.tag == "Drawer")
+                {
+                    Debug.Log("KeyClicked in Drawer = " + KeyClicked);
+                    if (KeyClicked == false)
+                    {
+                        _UIController.NoKeyText();
+                    }
+                    else if(KeyClicked == true && ObjectToAppear != null)
+                    {
+                        _UIController.OnHoverObjectClicked(ObjectToAppear);
+                    }
+                }
             }
         }
     }
@@ -69,3 +90,4 @@ public class OnHover : MonoBehaviour
         m_SpriteRenderer.color = m_OriginalColor;
     }
 }
+
