@@ -33,6 +33,7 @@ public class AdamControllerScript : MonoBehaviour {
             transform.position = Vector2.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
         } else {
 			anim.SetBool("walking", false);
+            //FindObjectOfType<AudioManager>().Play("Walking");
 		}
     }
 

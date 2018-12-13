@@ -8,29 +8,33 @@ public class ColorAppear : MonoBehaviour {
     public Color blobColor;
     Collider2D[] objInsideZone;
     Collider2D[] objOutsideZone;
-    public GameObject player;
     public Collider2D[] objInScene;
+    public GameObject blob;
 
     private void FixedUpdate()
     {
-        objInsideZone = Physics2D.OverlapCircleAll(player.transform.position, 5f);
-        for (var i = 0; i < objInsideZone.Length; i++)
+        if (blob.activeSelf == true)
         {
-            if (objInsideZone[i].tag == "ChangeColor")
-            {
-                SpriteRenderer sprite = objInsideZone[i].GetComponent<SpriteRenderer>();
-                sprite.color = blobColor;
-            }
-        }
-        objOutsideZone = objInScene.Except(objInsideZone).ToArray();
 
-        for(var i = 0; i < objOutsideZone.Length; i++)
-        {
-            if (objOutsideZone[i].tag == "ChangeColor")
+            objInsideZone = Physics2D.OverlapCircleAll(blob.transform.position, 5f);
+            for (var i = 0; i < objInsideZone.Length; i++)
             {
-                SpriteRenderer sprite = objOutsideZone[i].GetComponent<SpriteRenderer>();
-                sprite.color = Color.white;
+                if (objInsideZone[i].tag == "ChangeColor")
+                {
+                    SpriteRenderer sprite = objInsideZone[i].GetComponent<SpriteRenderer>();
+                    sprite.color = blobColor;
+                }
+            }
+            objOutsideZone = objInScene.Except(objInsideZone).ToArray();
+
+            for (var i = 0; i < objOutsideZone.Length; i++)
+            {
+                if (objOutsideZone[i].tag == "ChangeColor")
+                {
+                    SpriteRenderer sprite = objOutsideZone[i].GetComponent<SpriteRenderer>();
+                    sprite.color = Color.white;
+                }
             }
         }
-    }
+     }
 }

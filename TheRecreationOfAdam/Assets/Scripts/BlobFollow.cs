@@ -5,7 +5,8 @@ using UnityEngine;
 public class BlobFollow : MonoBehaviour {
 
     public GameObject target;
-    public float moveSpeed;
+    public float y_axis;
+    public float blobSpeed;
     Vector2 targetPos;
     Vector2 blobPos;
     bool right;
@@ -24,11 +25,11 @@ public class BlobFollow : MonoBehaviour {
         targetPos = target.transform.position;
         if(right)
         {
-            blobPos = new Vector2(targetPos.x - 1.5f, transform.position.y);
+            blobPos = new Vector2(targetPos.x - 1.5f, y_axis);
         }
         else
         {
-            blobPos = new Vector2(targetPos.x + 1.5f, transform.position.y);
+            blobPos = new Vector2(targetPos.x + 1.5f, y_axis);
         }
 
         if ((blobPos.x >= transform.position.x))
@@ -44,7 +45,7 @@ public class BlobFollow : MonoBehaviour {
         if (Vector2.Distance(blobPos, transform.position) > 0.2)
         {
             anim.SetBool("Walking", true);
-            transform.position = Vector2.MoveTowards(transform.position, blobPos, moveSpeed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, blobPos, blobSpeed * Time.deltaTime);
         }
         else
         {

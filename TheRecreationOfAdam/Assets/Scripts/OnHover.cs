@@ -12,6 +12,8 @@ public class OnHover : MonoBehaviour
     UIController _UIController;
     BoxCollider2D m_boxCollider;
     public bool DeleteItemOnClick;
+    bool KeyClicked;
+    GameObject DrawerText;
     // Use this for initialization
     void Start()
     {
@@ -19,6 +21,17 @@ public class OnHover : MonoBehaviour
         m_OriginalColor = m_SpriteRenderer.color;
         _UIController = FindObjectOfType<UIController>();
         m_boxCollider = GetComponent<BoxCollider2D>();
+        KeyClicked = false;
+    }
+
+    private void Awake()
+    {
+        DrawerText = GameObject.FindGameObjectWithTag("UIText");
+        if (DrawerText)
+        {
+            DrawerText.SetActive(false);
+        }
+
     }
 
     // Update is called once per frame
@@ -35,28 +48,47 @@ public class OnHover : MonoBehaviour
             {
                 if (ObjectToAppear != null)
                 {
-                    if(DeleteItemOnClick)
+                    if (DeleteItemOnClick)
                     {
                         Destroy(gameObject);
                     }
                     _UIController.OnHoverObjectClicked(ObjectToAppear);
                 }
-            }
 
-            if(hit.collider != null && hit.collider.tag == "FadeToLevel")
-            {
-                Debug.Log(transform.name + " // " + hit.collider.name);
-                _UIController.FadeToNextLevel();
-            }
-            else if (hit.collider != null && hit.collider.tag == "FadeToPrevLvl")
-            {
-                _UIController.FadeToPrevLevel();
-            }
-            else if (hit.collider != null && hit.collider.tag == "FadeToLvl")
-            {
-                _UIController.FadeToLevel(int.Parse(hit.collider.name));
+                if (hit.collider != null && hit.collider.tag == "FadeToLvl")
+                {
+                    _UIController.FadeToLevel(int.Parse(hit.collider.name));
+                }
+                else if (hit.collider != null && hit.collider.tag == "Key")
+                {
+                    SetKey();
+                    Debug.Log("KeyClicked in Key = " + KeyClicked);
+                }
+                /*else if (hit.collider != null && hit.collider.tag == "Drawer")
+                {
+                    Debug.Log("KeyClicked in Drawer = " + KeyClicked);
+                    if (KeyClicked == false)
+                    {
+                        Debug.Log("drawer text: " + DrawerText.name);
+                        _UIController.NoKeyText(DrawerText);
+                    }
+                    else if (KeyClicked == true && ObjectToAppear != null)
+                    {
+                        _UIController.OnHoverObjectClicked(ObjectToAppear);
+                    }
+                }*/
             }
         }
+    }
+
+    void SetKey()
+    {
+        KeyClicked = true;
+    }
+
+    public bool GetKey()
+    {
+        return KeyClicked;
     }
 
     void OnMouseOver()

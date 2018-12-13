@@ -1,17 +1,18 @@
 ﻿<Properties StartupConfiguration="{63432266-F9B0-BAB3-C58B-5989532DF387}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BlobFollow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CheckCorrectColor.cs">
     <Files>
-      <File FileName="Assets/Scripts/CheckCorrectNum.cs" Line="64" Column="31" />
-      <File FileName="Assets/Scripts/ColorAppear.cs" Line="29" Column="47" />
-      <File FileName="Assets/Scripts/BlobFollow.cs" Line="32" Column="21" />
-      <File FileName="Assets/Scripts/UIController.cs" Line="4" Column="1" NotebookId="1" />
-      <File FileName="Assets/Scripts/DontDestroy.cs" Line="16" Column="29" NotebookId="1" />
-      <File FileName="Assets/Scripts/NumLockController.cs" Line="30" Column="1" NotebookId="1" />
-      <File FileName="Assets/Scripts/OnHover.cs" Line="19" Column="9" NotebookId="1" />
-      <File FileName="Assets/Scripts/AdamControllerScript.cs" Line="17" Column="5" NotebookId="1" />
-      <File FileName="Assets/Scripts/CompleteCameraController.cs" Line="18" Column="3" NotebookId="1" />
-      <File FileName="Assets/Scripts/ShaderPosition.cs" Line="12" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scripts/ColorAppear.cs" Line="26" Column="18" />
+      <File FileName="Assets/Scripts/BlobFollow.cs" Line="52" Column="34" />
+      <File FileName="Assets/Scripts/OnHover.cs" Line="59" Column="18" />
+      <File FileName="Assets/Scripts/CheckCorrectColor.cs" Line="45" Column="1" />
+      <File FileName="Assets/Scripts/DrawerPuzzle.cs" Line="25" Column="28" NotebookId="1" />
+      <File FileName="Assets/Scripts/UIController.cs" Line="37" Column="14" NotebookId="1" />
+      <File FileName="Assets/Scripts/DontDestroy.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scripts/NumLockController.cs" Line="10" Column="5" NotebookId="1" />
+      <File FileName="Assets/Scripts/AdamControllerScript.cs" Line="32" Column="9" NotebookId="1" />
+      <File FileName="Assets/Scripts/HospitalController.cs" Line="24" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scripts/CheckCorrectNum.cs" Line="4" Column="1" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -284,7 +284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4945045328097286}
   m_Layer: 0
-  m_Name: DialogDavid
+  m_Name: DialogFancyPants
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
