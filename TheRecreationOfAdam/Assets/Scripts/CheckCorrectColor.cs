@@ -4,15 +4,14 @@ using UnityEngine;
 using TMPro;
 
 public class CheckCorrectColor : MonoBehaviour {
-    Animator anim;
     bool Button1 = false;
     bool Button2 = false;
     bool Button3 = false;
-    // Use this for initialization
-    void Start () {
-        anim = GetComponent<Animator>();
-    }
-	
+    public GameObject door;
+    public GameObject door_open;
+    public GameObject obj_to_destroy;
+
+
 	// Update is called once per frame
 	void Update () {
         foreach (Transform child in transform)
@@ -44,11 +43,10 @@ public class CheckCorrectColor : MonoBehaviour {
         }
         if (Button1 && Button2 && Button3)
         {
-            StartAnimation();
+            Destroy(obj_to_destroy);
+            door.SetActive(false);
+            door_open.SetActive(true);
         }
     }
-    void StartAnimation()
-    {
-        anim.SetBool("Open", true);
-    }
+
 }
