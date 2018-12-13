@@ -29,7 +29,7 @@ public class NurseDialog : MonoBehaviour
        if(Activate.activeSelf == false)
        {
            SelectedAnswer = 0;
-           nurse.GetComponent<TextMeshProUGUI>().text = "Nurse: Adam, why are you up?";
+           nurse.GetComponent<TextMeshProUGUI>().text = "Nurse: Adam, why are you awake?";
        }   
     }
 
