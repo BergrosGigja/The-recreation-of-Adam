@@ -1558,6 +1558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectToAppear: {fileID: 0}
+  DeleteItemOnClick: 0
 --- !u!114 &114034740992447998
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1570,6 +1571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectToAppear: {fileID: 0}
+  DeleteItemOnClick: 0
 --- !u!114 &114037534212891994
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1754,6 +1756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectToAppear: {fileID: 1998145809237766}
+  DeleteItemOnClick: 0
 --- !u!114 &114252006626829456
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2400,6 +2403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectToAppear: {fileID: 0}
+  DeleteItemOnClick: 0
 --- !u!114 &114545898521402264
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2412,6 +2416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectToAppear: {fileID: 0}
+  DeleteItemOnClick: 0
 --- !u!114 &114570016058072818
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2827,27 +2832,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1998145809237766}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7c4378144049034899b9b7672aa249f, type: 3}
+  m_Script: {fileID: 11500000, guid: d2dff18a88154495da2f19d4340b7b76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Activate: {fileID: 1426928510301758}
-  TextBox: {fileID: 1300540968845754}
-  Option01: {fileID: 1250467535749402}
-  Option02: {fileID: 1009643625095806}
-  Option03: {fileID: 1456841274251558}
-  Option04: {fileID: 1476197948467172}
-  Option05: {fileID: 1752724681244460}
-  Option06: {fileID: 1621748085527096}
-  Option07: {fileID: 1491973310428086}
-  Option08: {fileID: 1541842424275058}
-  Option09: {fileID: 1512949803349392}
-  Option10: {fileID: 1730457064234736}
-  Option11: {fileID: 1913106780785786}
-  Option12: {fileID: 1779735817869414}
-  Option13: {fileID: 1164782000318062}
-  Option14: {fileID: 1741185048992268}
-  Option15: {fileID: 1233282354236700}
-  SelectedAnswer: 0
+  target: {fileID: 1602106259305720, guid: 72c16c53a5b128d4cadeeb933a4fa571, type: 2}
+  y_axis: -3.31
+  blobSpeed: 2.3
 --- !u!114 &114735644355234586
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2912,6 +2902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectToAppear: {fileID: 0}
+  DeleteItemOnClick: 0
 --- !u!114 &114742755252632598
 MonoBehaviour:
   m_ObjectHideFlags: 1
