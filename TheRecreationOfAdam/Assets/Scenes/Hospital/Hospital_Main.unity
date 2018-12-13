@@ -225,12 +225,12 @@ Prefab:
     - target: {fileID: 114462067633625322, guid: b6d2756819a96d5448939e3d0a737345,
         type: 2}
       propertyPath: m_havePropertiesChanged
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114462067633625322, guid: b6d2756819a96d5448939e3d0a737345,
         type: 2}
       propertyPath: m_isInputParsingRequired
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224857912675620336, guid: b6d2756819a96d5448939e3d0a737345,
         type: 2}
@@ -256,6 +256,11 @@ Prefab:
     - target: {fileID: 1093259358478274, guid: b6d2756819a96d5448939e3d0a737345, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462067633625322, guid: b6d2756819a96d5448939e3d0a737345,
+        type: 2}
+      propertyPath: m_text
+      value: 'Nurse: Adam, why are you awake?'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6d2756819a96d5448939e3d0a737345, type: 2}
