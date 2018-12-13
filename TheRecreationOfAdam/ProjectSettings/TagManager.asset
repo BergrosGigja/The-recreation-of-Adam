@@ -13,9 +13,8 @@ TagManager:
   - FadeToPrevLvl
   - FadeToLvl
   - ChangeColor
-  - Key
-  - Drawer
-  - Blob
+  - SpawnPoint
+  - SpawnPoints
   layers:
   - Default
   - TransparentFX
