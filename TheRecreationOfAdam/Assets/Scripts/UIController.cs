@@ -65,15 +65,11 @@ public class UIController : MonoBehaviour {
     {
         Destroy(objectToDestroy);
         ObjectToAppear.SetActive(true);
-<<<<<<< HEAD
     }
 
-    public void NoKeyText()
+    public void NoKeyText(GameObject drawerText)
     {
         //Used for Hospital level
         drawerText.SetActive(true);
-
-=======
->>>>>>> e6e5a85c0413d03b621b986ab32553b311f232fd
     }
 }

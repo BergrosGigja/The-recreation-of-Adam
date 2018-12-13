@@ -15,6 +15,9 @@ TagManager:
   - ChangeColor
   - SpawnPoint
   - SpawnPoints
+  - Key
+  - Drawer
+  - UIText
   layers:
   - Default
   - TransparentFX

@@ -20,9 +20,19 @@ public class OnHover : MonoBehaviour
         m_SpriteRenderer = GetComponent<SpriteRenderer>();
         m_OriginalColor = m_SpriteRenderer.color;
         _UIController = FindObjectOfType<UIController>();
-        DrawerText = GameObject.Find("DrawerLockedText");
+
         m_boxCollider = GetComponent<BoxCollider2D>();
         KeyClicked = false;
+    }
+
+    private void Awake()
+    {
+        DrawerText = GameObject.FindGameObjectWithTag("UIText");
+        if(DrawerText)
+        {
+            DrawerText.SetActive(false);
+        }
+       
     }
 
     // Update is called once per frame
@@ -37,7 +47,7 @@ public class OnHover : MonoBehaviour
             //If something was hit, the RaycastHit2D.collider will not be null.
             if (hit.collider != null && hit.collider == m_boxCollider)
             {
-                if (ObjectToAppear != null && ObjectToAppear.name != "Green_blob")
+                if (ObjectToAppear != null)
                 {
                     if (DeleteItemOnClick)
                     {
@@ -69,7 +79,8 @@ public class OnHover : MonoBehaviour
                     Debug.Log("KeyClicked in Drawer = " + KeyClicked);
                     if (KeyClicked == false)
                     {
-                        _UIController.NoKeyText();
+                        Debug.Log("drawer text: " + DrawerText.name);
+                        _UIController.NoKeyText(DrawerText);
                     }
                     else if(KeyClicked == true && ObjectToAppear != null)
                     {
