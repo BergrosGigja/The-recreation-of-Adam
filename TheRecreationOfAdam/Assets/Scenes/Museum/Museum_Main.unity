@@ -854,22 +854,22 @@ Prefab:
     - target: {fileID: 224767937457140176, guid: 16f15908ecf51f94db2753e394830790,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -5
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 224454583954482790, guid: 16f15908ecf51f94db2753e394830790,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -5
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 224662801686214712, guid: 16f15908ecf51f94db2753e394830790,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -5
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 224578419538488700, guid: 16f15908ecf51f94db2753e394830790,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 450
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 224578419538488700, guid: 16f15908ecf51f94db2753e394830790,
         type: 2}
@@ -879,12 +879,12 @@ Prefab:
     - target: {fileID: 224578419538488700, guid: 16f15908ecf51f94db2753e394830790,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 156
+      value: 185
       objectReference: {fileID: 0}
     - target: {fileID: 224201433553092434, guid: 16f15908ecf51f94db2753e394830790,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -52
+      value: 280
       objectReference: {fileID: 0}
     - target: {fileID: 1746959665503944, guid: 16f15908ecf51f94db2753e394830790, type: 2}
       propertyPath: m_TagString
@@ -1283,6 +1283,61 @@ Prefab:
       propertyPath: m_CullTransparentMesh
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224632702066607600, guid: 16f15908ecf51f94db2753e394830790,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224632702066607600, guid: 16f15908ecf51f94db2753e394830790,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224632702066607600, guid: 16f15908ecf51f94db2753e394830790,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224632702066607600, guid: 16f15908ecf51f94db2753e394830790,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224632702066607600, guid: 16f15908ecf51f94db2753e394830790,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 224632702066607600, guid: 16f15908ecf51f94db2753e394830790,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 650
+      objectReference: {fileID: 0}
+    - target: {fileID: 224201433553092434, guid: 16f15908ecf51f94db2753e394830790,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224201433553092434, guid: 16f15908ecf51f94db2753e394830790,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224201433553092434, guid: 16f15908ecf51f94db2753e394830790,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224201433553092434, guid: 16f15908ecf51f94db2753e394830790,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224201433553092434, guid: 16f15908ecf51f94db2753e394830790,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 315
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16f15908ecf51f94db2753e394830790, type: 2}
   m_IsPrefabAsset: 0
@@ -1581,6 +1636,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   door: {fileID: 1607288138}
   door_open: {fileID: 1037278142}
+  obj_to_destroy: {fileID: 0}
 --- !u!114 &421350124
 MonoBehaviour:
   m_ObjectHideFlags: 0
