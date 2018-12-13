@@ -123,7 +123,6 @@ GameObject:
   - component: {fileID: 63957392}
   - component: {fileID: 63957393}
   - component: {fileID: 63957395}
-  - component: {fileID: 63957394}
   m_Layer: 10
   m_Name: room1_paintingGreen
   m_TagString: ChangeColor
@@ -190,21 +189,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &63957394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 63957391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01d6dc24639a540cfbcc198ded1f028a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  blobColor: {r: 0, g: 0.7019608, b: 0.24705884, a: 1}
-  objInScene:
-  - {fileID: 63957395}
-  blob: {fileID: 191564102}
 --- !u!61 &63957395
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -476,6 +460,7 @@ GameObject:
   m_Component:
   - component: {fileID: 178197778}
   - component: {fileID: 178197779}
+  - component: {fileID: 178197780}
   m_Layer: 8
   m_Name: left_exit
   m_TagString: Untagged
@@ -544,6 +529,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &178197780
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 178197777}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -19.6, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 40.96, y: 20.48}
+    newSize: {x: 40.96, y: 20.48}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &189721002 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1201000527779724, guid: 16f15908ecf51f94db2753e394830790,
@@ -887,7 +897,6 @@ GameObject:
   m_Component:
   - component: {fileID: 294970820}
   - component: {fileID: 294970821}
-  - component: {fileID: 294970823}
   - component: {fileID: 294970822}
   m_Layer: 10
   m_Name: room1_paintingPurple
@@ -980,21 +989,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10, y: 6}
   m_EdgeRadius: 0
---- !u!114 &294970823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 294970819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01d6dc24639a540cfbcc198ded1f028a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  blobColor: {r: 0.5568628, g: 0.18431373, b: 0.83921576, a: 1}
-  objInScene:
-  - {fileID: 294970822}
-  blob: {fileID: 1113069246}
 --- !u!1 &421313774 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1261573532368346, guid: 16f15908ecf51f94db2753e394830790,
@@ -1108,7 +1102,6 @@ GameObject:
   - component: {fileID: 509775927}
   - component: {fileID: 509775928}
   - component: {fileID: 509775930}
-  - component: {fileID: 509775929}
   m_Layer: 10
   m_Name: room2_button1
   m_TagString: ChangeColor
@@ -1175,21 +1168,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &509775929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 509775926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01d6dc24639a540cfbcc198ded1f028a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  blobColor: {r: 0, g: 0.7019608, b: 0.24705884, a: 1}
-  objInScene:
-  - {fileID: 509775930}
-  blob: {fileID: 191564102}
 --- !u!61 &509775930
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1224,7 +1202,6 @@ GameObject:
   m_Component:
   - component: {fileID: 568822473}
   - component: {fileID: 568822474}
-  - component: {fileID: 568822475}
   - component: {fileID: 568822476}
   m_Layer: 10
   m_Name: room2_painting_2
@@ -1292,21 +1269,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &568822475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 568822472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01d6dc24639a540cfbcc198ded1f028a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  blobColor: {r: 0.5568628, g: 0.18431373, b: 0.83921576, a: 1}
-  objInScene:
-  - {fileID: 568822476}
-  blob: {fileID: 1113069246}
 --- !u!61 &568822476
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1484,7 +1446,6 @@ GameObject:
   m_Component:
   - component: {fileID: 771797315}
   - component: {fileID: 771797316}
-  - component: {fileID: 771797317}
   - component: {fileID: 771797318}
   m_Layer: 10
   m_Name: room2_button2
@@ -1552,21 +1513,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &771797317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 771797314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01d6dc24639a540cfbcc198ded1f028a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  blobColor: {r: 0.5568628, g: 0.18431373, b: 0.83921576, a: 1}
-  objInScene:
-  - {fileID: 771797318}
-  blob: {fileID: 1113069246}
 --- !u!61 &771797318
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1601,7 +1547,6 @@ GameObject:
   m_Component:
   - component: {fileID: 893626394}
   - component: {fileID: 893626395}
-  - component: {fileID: 893626397}
   - component: {fileID: 893626396}
   m_Layer: 10
   m_Name: room2_painting_3
@@ -1694,21 +1639,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3, y: 3}
   m_EdgeRadius: 0
---- !u!114 &893626397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 893626393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01d6dc24639a540cfbcc198ded1f028a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  blobColor: {r: 0, g: 0.6862745, b: 0.25882354, a: 1}
-  objInScene:
-  - {fileID: 893626396}
-  blob: {fileID: 191564102}
 --- !u!1 &956033344
 GameObject:
   m_ObjectHideFlags: 0
@@ -3564,6 +3494,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1666276734}
+  - component: {fileID: 1666276735}
   m_Layer: 0
   m_Name: toColorPurple
   m_TagString: Untagged
@@ -3587,6 +3518,23 @@ Transform:
   m_Father: {fileID: 166506811}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1666276735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1666276733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01d6dc24639a540cfbcc198ded1f028a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blobColor: {r: 0.6392157, g: 0, b: 0.86666673, a: 1}
+  objInScene:
+  - {fileID: 294970822}
+  - {fileID: 771797318}
+  - {fileID: 568822476}
+  blob: {fileID: 1113069246}
 --- !u!1 &1759660605 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1881568318510658, guid: 16f15908ecf51f94db2753e394830790,
@@ -3600,6 +3548,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1788667455}
+  - component: {fileID: 1788667456}
   m_Layer: 0
   m_Name: toColorGreen
   m_TagString: Untagged
@@ -3624,6 +3573,24 @@ Transform:
   m_Father: {fileID: 166506811}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1788667456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1788667454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01d6dc24639a540cfbcc198ded1f028a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blobColor: {r: 0, g: 0.7568628, b: 0.18431373, a: 1}
+  objInScene:
+  - {fileID: 178197780}
+  - {fileID: 63957395}
+  - {fileID: 893626396}
+  - {fileID: 509775930}
+  blob: {fileID: 191564102}
 --- !u!1 &1799324681
 GameObject:
   m_ObjectHideFlags: 0
