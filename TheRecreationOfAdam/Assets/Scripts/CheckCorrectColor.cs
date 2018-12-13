@@ -9,6 +9,7 @@ public class CheckCorrectColor : MonoBehaviour {
     bool Button3 = false;
     public GameObject door;
     public GameObject door_open;
+    public GameObject obj_to_destroy;
 
 
 	// Update is called once per frame
@@ -42,7 +43,7 @@ public class CheckCorrectColor : MonoBehaviour {
         }
         if (Button1 && Button2 && Button3)
         {
-            Destroy(this.gameObject);
+            Destroy(obj_to_destroy);
             door.SetActive(false);
             door_open.SetActive(true);
         }
