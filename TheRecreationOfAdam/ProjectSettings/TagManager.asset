@@ -14,6 +14,7 @@ TagManager:
   - FadeToLvl
   - ChangeColor
   - SpawnPoint
+  - SpawnPoints
   layers:
   - Default
   - TransparentFX
