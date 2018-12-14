@@ -29,11 +29,11 @@ public class StreetView2Controller : MonoBehaviour
                     switch (hit.collider.name)
                     {
                         case "library_door":
-                            //nurse smoking text appears
+                            //library locked text
                             objectsToAppear[0].SetActive(true);
                             break;
                         case "hospital_door":
-                            //go to library view
+                            //smoking text appears
                             objectsToAppear[1].SetActive(true);
                             break;
                         case "museum_door":
