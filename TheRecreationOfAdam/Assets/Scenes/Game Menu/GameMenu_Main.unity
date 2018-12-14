@@ -204,29 +204,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c16c53a5b128d4cadeeb933a4fa571, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &103037063 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1602106259305720, guid: 72c16c53a5b128d4cadeeb933a4fa571,
-    type: 2}
-  m_PrefabInternal: {fileID: 73505621}
---- !u!114 &103037064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 103037063}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac32195846219d04ea5c91de7fa335d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sounds:
-  - name: Walking
-    clip: {fileID: 8300000, guid: c6e4cfbb12e042e4ebf404d0d63d6fcf, type: 3}
-    volume: 0.4
-    pitch: 1
-    loop: 1
-    source: {fileID: 0}
 --- !u!1 &235661820
 GameObject:
   m_ObjectHideFlags: 0
