@@ -2732,7 +2732,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 828974537}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -3061,7 +3061,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4933333, y: 3.3333333}
+  m_Size: {x: 5.12, y: 5.12}
   m_EdgeRadius: 0
 --- !u!114 &871241037
 MonoBehaviour:
@@ -3621,7 +3621,7 @@ MonoBehaviour:
     spaceCount: 3
     wordCount: 4
     linkCount: 0
-    lineCount: 1
+    lineCount: 2
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -3652,14 +3652,14 @@ CanvasRenderer:
 --- !u!1 &1015942330
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1838623936108062, guid: 2839e13e8310d48518be9e8cc555aeda,
+  m_CorrespondingSourceObject: {fileID: 1139571323285962, guid: 2839e13e8310d48518be9e8cc555aeda,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1015942331}
   m_Layer: 0
-  m_Name: DialogFancyPants
+  m_Name: StreetView1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3668,7 +3668,7 @@ GameObject:
 --- !u!4 &1015942331
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4755463918109752, guid: 2839e13e8310d48518be9e8cc555aeda,
+  m_CorrespondingSourceObject: {fileID: 4873676071150650, guid: 2839e13e8310d48518be9e8cc555aeda,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1015942330}
@@ -4056,7 +4056,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1105014399}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -4172,6 +4172,16 @@ CanvasRenderer:
   m_CullTransparentMesh: 0
 --- !u!1 &1154068198
 GameObject:
+  m_CorrespondingSourceObject: {fileID: 1997879906612158, guid: 72fa0fa5581bf2947bc6733c758b8732,
+    type: 2}
+  m_PrefabInternal: {fileID: 707341266}
+--- !u!4 &871241035 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4509578105067220, guid: 72fa0fa5581bf2947bc6733c758b8732,
+    type: 2}
+  m_PrefabInternal: {fileID: 707341266}
+--- !u!61 &871241036
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 1018702716982208, guid: 2839e13e8310d48518be9e8cc555aeda,
     type: 2}
@@ -4319,10 +4329,10 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &1154068204
+<<<<<<< HEAD
+--- !u!4 &963999142
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4576144777507014, guid: 2839e13e8310d48518be9e8cc555aeda,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1154068198}
@@ -4356,10 +4366,10 @@ MonoBehaviour:
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 1121143449580696, guid: 2839e13e8310d48518be9e8cc555aeda,
+>>>>>>> 4a6bd613e188615f9544757bc9bd712922743f7a
     type: 2}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
-  m_Component:
   - component: {fileID: 1192665696}
   - component: {fileID: 1192665697}
   m_Layer: 0
@@ -5658,16 +5668,16 @@ GameObject:
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1464909308}
-  - component: {fileID: 1464909310}
-  - component: {fileID: 1464909309}
-  m_Layer: 11
+<<<<<<< HEAD
+  - component: {fileID: 1468652026}
+  - component: {fileID: 1468652025}
+  - component: {fileID: 1468652024}
   m_Name: grass2
   m_TagString: ChangeColor
+>>>>>>> 4a6bd613e188615f9544757bc9bd712922743f7a
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &1464909308
 Transform:
   m_ObjectHideFlags: 0

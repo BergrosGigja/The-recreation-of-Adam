@@ -4346,7 +4346,8 @@ RectTransform:
 --- !u!1 &1984426615
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 1945998087279280, guid: 2839e13e8310d48518be9e8cc555aeda,
+    type: 2}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
   m_Component:

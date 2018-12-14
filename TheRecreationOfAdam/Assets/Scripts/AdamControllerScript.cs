@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AdamControllerScript : MonoBehaviour {
 
@@ -13,6 +14,11 @@ public class AdamControllerScript : MonoBehaviour {
 
 		anim = GetComponent<Animator>();
 		targetPos = transform.position;
+        Scene scene = SceneManager.GetActiveScene();
+        if(scene.name == "Basement_main") {
+            transform.localScale = new Vector2(-1.0f, 1.0f);
+        }
+        
 	}
 
 	void Update () {
