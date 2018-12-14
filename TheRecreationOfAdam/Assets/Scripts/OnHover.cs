@@ -14,6 +14,7 @@ public class OnHover : MonoBehaviour
     public bool DeleteItemOnClick;
     bool KeyClicked;
     GameObject DrawerText;
+    public Collider2D[] clickableObjects;
     // Use this for initialization
     void Start()
     {
@@ -52,6 +53,7 @@ public class OnHover : MonoBehaviour
                     {
                         Destroy(gameObject);
                     }
+                    Debug.Log("DO I go here?");
                     _UIController.OnHoverObjectClicked(ObjectToAppear);
                 }
 
