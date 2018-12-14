@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 182193134}
   m_Layer: 0
   m_Name: GreenObj
-  m_TagString: Untagged
+  m_TagString: ChangeColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -285,7 +285,7 @@ MonoBehaviour:
   - {fileID: 602301882}
   - {fileID: 1569541059}
   - {fileID: 514509945}
-  blob: {fileID: 182193132}
+  blob: {fileID: 1539367229}
 --- !u!1 &207272618 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1126475647989576, guid: 2839e13e8310d48518be9e8cc555aeda,
@@ -301,9 +301,9 @@ GameObject:
   - component: {fileID: 514509944}
   - component: {fileID: 514509946}
   - component: {fileID: 514509945}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: grass (3)
-  m_TagString: Untagged
+  m_TagString: ChangeColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -407,9 +407,9 @@ GameObject:
   - component: {fileID: 602301881}
   - component: {fileID: 602301883}
   - component: {fileID: 602301882}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: grass (1)
-  m_TagString: Untagged
+  m_TagString: ChangeColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -522,8 +522,6 @@ MonoBehaviour:
   target: {fileID: 106875431}
   y_axis: -3.09
   blobSpeed: 2.3
-  leftWall: -54
-  rightWall: 67
 --- !u!1001 &971725841
 Prefab:
   m_ObjectHideFlags: 0
@@ -791,6 +789,11 @@ MonoBehaviour:
   blobColor: {r: 0.6392157, g: 0, b: 0.86666673, a: 1}
   objInScene: []
   blob: {fileID: 897140903}
+--- !u!1 &1539367229 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1031989569658000, guid: 2839e13e8310d48518be9e8cc555aeda,
+    type: 2}
+  m_PrefabInternal: {fileID: 971725841}
 --- !u!1 &1569541057
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,9 +804,9 @@ GameObject:
   - component: {fileID: 1569541058}
   - component: {fileID: 1569541060}
   - component: {fileID: 1569541059}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: grass (2)
-  m_TagString: Untagged
+  m_TagString: ChangeColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -902,9 +905,9 @@ GameObject:
   - component: {fileID: 1666682923}
   - component: {fileID: 1666682924}
   - component: {fileID: 1666682925}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: grass
-  m_TagString: Untagged
+  m_TagString: ChangeColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -991,5 +994,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.5}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0

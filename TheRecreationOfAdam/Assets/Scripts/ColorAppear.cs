@@ -16,7 +16,7 @@ public class ColorAppear : MonoBehaviour {
         if (blob.activeSelf == true)
         {
 
-            objInsideZone = Physics2D.OverlapCircleAll(blob.transform.position, 5f, LayerMask.GetMask("Color Change"));
+            objInsideZone = Physics2D.OverlapCircleAll(blob.transform.position, 5f);
             for (var i = 0; i < objInsideZone.Length; i++)
             {
                 if (objInsideZone[i].tag == "ChangeColor" && objInScene.Contains<Collider2D>(objInsideZone[i]))
