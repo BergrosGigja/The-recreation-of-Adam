@@ -67,7 +67,7 @@ public class NurseDialog : MonoBehaviour
 
     public void ChoiceOption3()
     {
-        nurse.GetComponent<TextMeshProUGUI>().text = "Nurse: Anything you might be feling is normal, you've been in a coma for so long... You're lucky we didn't pull the plug on you.";
+        nurse.GetComponent<TextMeshProUGUI>().text = "Nurse: Anything you might be feeling is normal, you've been in a coma for so long... You're lucky we didn't pull the plug on you.";
         Option03.SetActive(false);
 		Option04.SetActive(false);
 		Option05.SetActive(true);
@@ -76,7 +76,7 @@ public class NurseDialog : MonoBehaviour
 
     public void ChoiceOption4()
     {
-        nurse.GetComponent<TextMeshProUGUI>().text = "Nurse: Anything you might be feling is normal, you've been in a coma for so long... You're lucky we didn't pull the plug on you.";
+        nurse.GetComponent<TextMeshProUGUI>().text = "Nurse: Anything you might be feeling is normal, you've been in a coma for so long... You're lucky we didn't pull the plug on you.";
         SelectedAnswer = 4;
         Option03.SetActive(false);
 		Option04.SetActive(false);
