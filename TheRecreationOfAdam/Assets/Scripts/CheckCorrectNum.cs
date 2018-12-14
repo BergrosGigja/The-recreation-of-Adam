@@ -9,9 +9,11 @@ public class CheckCorrectNum : MonoBehaviour {
     bool Button2 = false;
     bool Button3 = false;
     bool Button4 = false;
+    bool allCorrect = false;
     public GameObject objToDestroy;
     public GameObject boxLid;
     public GameObject blob;
+    public GameObject blobOnClose;
 
     void Start()
     {
@@ -66,6 +68,14 @@ public class CheckCorrectNum : MonoBehaviour {
         boxLid.SetActive(true);
         blob.SetActive(true);
         Destroy(objToDestroy);
-        anim.SetBool("BlobAppear", true);
+        allCorrect = true;
+    }
+
+    public void CheckIfBlobAppears()
+    {
+        if(allCorrect)
+        {
+            blobOnClose.SetActive(true);
+        }
     }
 }
