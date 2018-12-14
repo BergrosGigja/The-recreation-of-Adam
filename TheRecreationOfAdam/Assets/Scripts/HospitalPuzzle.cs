@@ -4,23 +4,18 @@ using UnityEngine;
 
 public class HospitalPuzzle : MonoBehaviour
 {
-
-    SpriteRenderer m_SpriteRenderer;
     public GameObject[] clickableObjects;
     public GameObject[] objectsToAppear;
     bool m_keyClicked;
     bool m_blobFound;
     UIController _UIController;
-    BoxCollider2D m_boxCollider;
 
     // Use this for initialization
     void Start()
     {
-        m_SpriteRenderer = GetComponent<SpriteRenderer>();
         m_keyClicked = false;
         m_blobFound = false;
         _UIController = FindObjectOfType<UIController>();
-        m_boxCollider = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame

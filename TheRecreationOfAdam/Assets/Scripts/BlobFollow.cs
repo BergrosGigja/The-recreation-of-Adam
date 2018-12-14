@@ -11,18 +11,33 @@ public class BlobFollow : MonoBehaviour {
     Vector2 blobPos;
     bool right;
     Animator anim;
+    public float leftWall;
+    public float rightWall;
+    Vector2 leftMost;
+    Vector2 rightMost;
     // Use this for initialization
     void Start()
     {
         blobPos = transform.position;
         right = false;
+        leftMost = new Vector2 (leftWall, y_axis);
+        rightMost = new Vector2 (rightWall, y_axis);
         anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        targetPos = target.transform.position;
+         targetPos = target.transform.position;
+
+        if(blobPos.x < leftWall)
+        {
+                transform.position = leftMost;
+        }
+        else if(blobPos.x > rightWall)
+        {
+            transform.position = rightMost;
+        }
         if(right)
         {
             blobPos = new Vector2(targetPos.x - 1.5f, y_axis);

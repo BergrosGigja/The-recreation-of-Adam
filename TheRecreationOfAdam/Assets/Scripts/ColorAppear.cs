@@ -16,10 +16,10 @@ public class ColorAppear : MonoBehaviour {
         if (blob.activeSelf == true)
         {
 
-            objInsideZone = Physics2D.OverlapCircleAll(blob.transform.position, 5f);
+            objInsideZone = Physics2D.OverlapCircleAll(blob.transform.position, 5f, LayerMask.GetMask("Color Change"));
             for (var i = 0; i < objInsideZone.Length; i++)
             {
-                if (objInsideZone[i].tag == "ChangeColor")
+                if (objInsideZone[i].tag == "ChangeColor" && objInScene.Contains<Collider2D>(objInsideZone[i]))
                 {
                     SpriteRenderer sprite = objInsideZone[i].GetComponent<SpriteRenderer>();
                     sprite.color = blobColor;

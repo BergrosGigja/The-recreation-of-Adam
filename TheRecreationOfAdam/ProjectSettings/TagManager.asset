@@ -17,6 +17,7 @@ TagManager:
   - UIText
   - HoverItem
   - DestroyItem
+  - blob
   layers:
   - Default
   - TransparentFX
@@ -29,6 +30,7 @@ TagManager:
   - Background Image
   - Front
   - Interactive
+  - Color Change
   - 
   - 
   - 
@@ -49,7 +51,6 @@ TagManager:
   - 
   - 
   - 
-  - MostFront
   m_SortingLayers:
   - name: Default
     uniqueID: 0

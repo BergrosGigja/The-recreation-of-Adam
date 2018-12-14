@@ -1,5 +1,6 @@
 ﻿<Properties StartupConfiguration="{63432266-F9B0-BAB3-C58B-5989532DF387}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/OnHover.cs">
     <Files>
       <File FileName="Assets/Scripts/BlobFollow.cs" Line="54" Column="6" />
@@ -12,6 +13,23 @@
       <File FileName="Assets/Scripts/CheckCorrectNum.cs" Line="71" Column="2" />
       <File FileName="Assets/Scripts/ColorAppear.cs" Line="13" Column="5" />
       <File FileName="Assets/Scripts/HospitalPuzzle.cs" Line="56" Column="2" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LibraryController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/BlobFollow.cs" Line="17" Column="38" />
+      <File FileName="Assets/Scripts/OnHover.cs" Line="18" Column="21" />
+      <File FileName="Assets/Scripts/CheckCorrectColor.cs" Line="48" Column="39" />
+      <File FileName="Assets/Scripts/UIController.cs" Line="37" Column="14" />
+      <File FileName="Assets/Scripts/NumLockController.cs" Line="10" Column="5" />
+      <File FileName="Assets/Scripts/AdamControllerScript.cs" Line="30" Column="10" />
+      <File FileName="Assets/Scripts/CheckCorrectNum.cs" Line="64" Column="3" />
+      <File FileName="Assets/Scripts/ColorAppear.cs" Line="24" Column="93" />
+      <File FileName="Assets/Scripts/HospitalPuzzle.cs" Line="16" Column="30" />
+      <File FileName="Assets/StreetView2Controller.cs" Line="37" Column="64" />
+      <File FileName="Assets/MuseumController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/StreetViewController.cs" Line="37" Column="56" NotebookId="1" />
+      <File FileName="Assets/Scripts/LibraryController.cs" Line="64" Column="58" NotebookId="1" />
+>>>>>>> 4a6bd613e188615f9544757bc9bd712922743f7a
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
