@@ -17,6 +17,7 @@ TagManager:
   - UIText
   - HoverItem
   - DestroyItem
+  - blob
   layers:
   - Default
   - TransparentFX
