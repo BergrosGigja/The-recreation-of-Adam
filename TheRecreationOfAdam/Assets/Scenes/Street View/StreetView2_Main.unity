@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 97640108}
   - component: {fileID: 97640110}
   - component: {fileID: 97640109}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: TextMeshPro Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -198,8 +198,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -247,7 +247,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -438,7 +438,7 @@ GameObject:
   - component: {fileID: 189711451}
   - component: {fileID: 189711450}
   - component: {fileID: 189711449}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Choice6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -462,7 +462,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -140}
+  m_AnchoredPosition: {x: 0, y: -120}
   m_SizeDelta: {x: 470, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &189711449
@@ -924,7 +924,7 @@ GameObject:
   - component: {fileID: 363813969}
   - component: {fileID: 363813968}
   - component: {fileID: 363813967}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Choice3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -948,7 +948,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 35}
+  m_AnchoredPosition: {x: 0, y: 25}
   m_SizeDelta: {x: 470, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &363813967
@@ -991,7 +991,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 871241039}
         m_MethodName: ChoiceOption3
         m_Mode: 1
         m_Arguments:
@@ -1153,7 +1153,7 @@ GameObject:
   - component: {fileID: 436361525}
   - component: {fileID: 436361524}
   - component: {fileID: 436361523}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Choice3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1266,7 +1266,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 35}
+  m_AnchoredPosition: {x: 0, y: 25}
   m_SizeDelta: {x: 470, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &441685467
@@ -1282,7 +1282,7 @@ GameObject:
   - component: {fileID: 441685471}
   - component: {fileID: 441685470}
   - component: {fileID: 441685469}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1305,7 +1305,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 160}
+  m_AnchoredPosition: {x: 0, y: 120}
   m_SizeDelta: {x: 400, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!102 &441685469
@@ -1415,8 +1415,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1464,7 +1464,7 @@ MonoBehaviour:
     lineCount: 2
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -1501,7 +1501,7 @@ GameObject:
   - component: {fileID: 455985039}
   - component: {fileID: 455985041}
   - component: {fileID: 455985040}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: TextMeshPro Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1575,8 +1575,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1624,7 +1624,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -1762,13 +1762,13 @@ GameObject:
   - component: {fileID: 498132917}
   - component: {fileID: 498132919}
   - component: {fileID: 498132918}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &498132917
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1793,8 +1793,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 104.2}
-  m_SizeDelta: {x: 800, y: 650}
+  m_AnchoredPosition: {x: 0, y: 80}
+  m_SizeDelta: {x: 750, y: 550}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &498132918
 MonoBehaviour:
@@ -1844,7 +1844,7 @@ GameObject:
   - component: {fileID: 541679885}
   - component: {fileID: 541679884}
   - component: {fileID: 541679883}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Choice5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1868,7 +1868,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 35}
+  m_AnchoredPosition: {x: 0, y: 25}
   m_SizeDelta: {x: 470, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &541679883
@@ -1911,7 +1911,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 871241039}
         m_MethodName: ChoiceOption5
         m_Mode: 1
         m_Arguments:
@@ -2090,7 +2090,7 @@ GameObject:
   - component: {fileID: 622601078}
   - component: {fileID: 622601077}
   - component: {fileID: 622601076}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Choice6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2114,7 +2114,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -140}
+  m_AnchoredPosition: {x: 0, y: -120}
   m_SizeDelta: {x: 470, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &622601076
@@ -2157,7 +2157,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 871241039}
         m_MethodName: ChoiceOption6
         m_Mode: 1
         m_Arguments:
@@ -2408,7 +2408,7 @@ GameObject:
   - component: {fileID: 698496341}
   - component: {fileID: 698496340}
   - component: {fileID: 698496339}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Choice5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2521,7 +2521,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 35}
+  m_AnchoredPosition: {x: 0, y: 25}
   m_SizeDelta: {x: 470, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &707341266
@@ -2697,7 +2697,7 @@ GameObject:
   - component: {fileID: 828974538}
   - component: {fileID: 828974540}
   - component: {fileID: 828974539}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: TextMeshPro Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2772,8 +2772,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2821,7 +2821,7 @@ MonoBehaviour:
     lineCount: 2
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -2912,7 +2912,7 @@ GameObject:
   - component: {fileID: 839137246}
   - component: {fileID: 839137245}
   - component: {fileID: 839137244}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Choice4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3025,7 +3025,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -140}
+  m_AnchoredPosition: {x: 0, y: -120}
   m_SizeDelta: {x: 470, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &871241034 stripped
@@ -3940,13 +3940,13 @@ GameObject:
   - component: {fileID: 1082157713}
   - component: {fileID: 1082157715}
   - component: {fileID: 1082157714}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1082157713
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3971,7 +3971,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 75}
+  m_AnchoredPosition: {x: 0, y: 80}
   m_SizeDelta: {x: 750, y: 550}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1082157714
@@ -4021,7 +4021,7 @@ GameObject:
   - component: {fileID: 1105014400}
   - component: {fileID: 1105014402}
   - component: {fileID: 1105014401}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: TextMeshPro Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4095,8 +4095,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4144,7 +4144,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -4563,7 +4563,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -4668,7 +4668,7 @@ GameObject:
   - component: {fileID: 1275770271}
   - component: {fileID: 1275770270}
   - component: {fileID: 1275770269}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4781,8 +4781,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4830,7 +4830,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -4872,7 +4872,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 160}
+  m_AnchoredPosition: {x: 0, y: 120}
   m_SizeDelta: {x: 400, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1277351284
@@ -4887,7 +4887,7 @@ GameObject:
   - component: {fileID: 1277351288}
   - component: {fileID: 1277351287}
   - component: {fileID: 1277351286}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Choice2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4911,7 +4911,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -140}
+  m_AnchoredPosition: {x: 0, y: -120}
   m_SizeDelta: {x: 470, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1277351286
@@ -4954,7 +4954,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 871241039}
         m_MethodName: ChoiceOption2
         m_Mode: 1
         m_Arguments:
@@ -5052,6 +5052,8 @@ MonoBehaviour:
   target: {fileID: 1453603756}
   y_axis: -3.21
   blobSpeed: 2.5
+  leftWall: 0
+  rightWall: 0
 --- !u!58 &1278475150
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5215,7 +5217,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 715, y: -55}
+  m_AnchoredPosition: {x: 652, y: -55}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0, y: 1}
 --- !u!61 &1395196553
@@ -5568,7 +5570,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1454976578
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6112,7 +6114,7 @@ GameObject:
   - component: {fileID: 1596189519}
   - component: {fileID: 1596189518}
   - component: {fileID: 1596189517}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Choice1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6225,7 +6227,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 35}
+  m_AnchoredPosition: {x: 0, y: 25}
   m_SizeDelta: {x: 470, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1618181293
@@ -6239,7 +6241,7 @@ GameObject:
   - component: {fileID: 1618181294}
   - component: {fileID: 1618181296}
   - component: {fileID: 1618181295}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: TextMeshPro Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6313,8 +6315,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6362,7 +6364,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -6399,7 +6401,7 @@ GameObject:
   - component: {fileID: 1717402055}
   - component: {fileID: 1717402057}
   - component: {fileID: 1717402056}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: TextMeshPro Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6473,8 +6475,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6519,10 +6521,10 @@ MonoBehaviour:
     spaceCount: 13
     wordCount: 14
     linkCount: 0
-    lineCount: 1
+    lineCount: 2
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -6560,7 +6562,7 @@ GameObject:
   - component: {fileID: 1729317468}
   - component: {fileID: 1729317467}
   - component: {fileID: 1729317466}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Choice2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6673,7 +6675,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -140}
+  m_AnchoredPosition: {x: 0, y: -120}
   m_SizeDelta: {x: 470, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1732777075
@@ -6720,7 +6722,7 @@ GameObject:
   - component: {fileID: 1766080732}
   - component: {fileID: 1766080734}
   - component: {fileID: 1766080733}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: TextMeshPro Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6795,8 +6797,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6844,7 +6846,7 @@ MonoBehaviour:
     lineCount: 2
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -6907,7 +6909,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 655, y: -55}
+  m_AnchoredPosition: {x: 655, y: -44}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0, y: 1}
 --- !u!61 &1797898892
@@ -7343,6 +7345,8 @@ MonoBehaviour:
   target: {fileID: 1453603756}
   y_axis: -3.24
   blobSpeed: 2.3
+  leftWall: 0
+  rightWall: 0
 --- !u!4 &1837673994 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4399732950950774, guid: 0c15b040e727ec6429084ed2d27183b7,
@@ -7359,7 +7363,7 @@ GameObject:
   - component: {fileID: 1838179421}
   - component: {fileID: 1838179423}
   - component: {fileID: 1838179422}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: TextMeshPro Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7433,8 +7437,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7482,7 +7486,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -7520,7 +7524,7 @@ GameObject:
   - component: {fileID: 1955573142}
   - component: {fileID: 1955573141}
   - component: {fileID: 1955573140}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Choice1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7544,7 +7548,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 35}
+  m_AnchoredPosition: {x: 0, y: 25}
   m_SizeDelta: {x: 470, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1955573140
@@ -7587,7 +7591,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 871241039}
         m_MethodName: ChoiceOption1
         m_Mode: 1
         m_Arguments:
@@ -7647,7 +7651,7 @@ GameObject:
   - component: {fileID: 1958523321}
   - component: {fileID: 1958523323}
   - component: {fileID: 1958523322}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: TextMeshPro Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7721,8 +7725,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7770,7 +7774,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -7808,7 +7812,7 @@ GameObject:
   - component: {fileID: 1974114089}
   - component: {fileID: 1974114088}
   - component: {fileID: 1974114087}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Choice4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7832,7 +7836,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -140}
+  m_AnchoredPosition: {x: 0, y: -120}
   m_SizeDelta: {x: 470, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1974114087
@@ -7875,7 +7879,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 871241039}
         m_MethodName: ChoiceOption4
         m_Mode: 1
         m_Arguments:
@@ -8057,7 +8061,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -8094,7 +8098,7 @@ GameObject:
   - component: {fileID: 2035056718}
   - component: {fileID: 2035056720}
   - component: {fileID: 2035056719}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: TextMeshPro Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8168,8 +8172,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8217,7 +8221,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -8355,7 +8359,7 @@ GameObject:
   - component: {fileID: 2064564227}
   - component: {fileID: 2064564229}
   - component: {fileID: 2064564228}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: TextMeshPro Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8429,8 +8433,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8478,7 +8482,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -8593,7 +8597,7 @@ GameObject:
   - component: {fileID: 2122656702}
   - component: {fileID: 2122656704}
   - component: {fileID: 2122656703}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: TextMeshPro Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8668,8 +8672,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8717,7 +8721,7 @@ MonoBehaviour:
     lineCount: 2
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
