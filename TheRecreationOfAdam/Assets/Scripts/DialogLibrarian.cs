@@ -37,6 +37,7 @@ public class DialogLibrarian : MonoBehaviour {
         Option02.SetActive(true);
         Option03.SetActive(false);
         Option04.SetActive(false);
+        FindObjectOfType<AudioManager>().Play("Library");
     }
 
     public void ChoiceOption1()
