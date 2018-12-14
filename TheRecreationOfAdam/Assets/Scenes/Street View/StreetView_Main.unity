@@ -1625,6 +1625,7 @@ GameObject:
   m_Component:
   - component: {fileID: 607727444}
   - component: {fileID: 607727445}
+  - component: {fileID: 607727446}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Wall
@@ -1668,10 +1669,23 @@ BoxCollider2D:
     adaptiveTilingThreshold: 0
     drawMode: 0
     adaptiveTiling: 0
-  m_AutoTiling: 1
+  m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 10}
   m_EdgeRadius: 0
+--- !u!114 &607727446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 607727443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3157666d6674ed24298c2b72b422cb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blob: {fileID: 1819214490}
+  y_axis: -3.21
 --- !u!1 &614574558
 GameObject:
   m_ObjectHideFlags: 0
@@ -2853,7 +2867,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030517578, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &848127063
@@ -4084,7 +4098,7 @@ GameObject:
   - component: {fileID: 1819214492}
   m_Layer: 0
   m_Name: Green_blob
-  m_TagString: Untagged
+  m_TagString: blob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4097,7 +4111,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1819214490}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -36.93, y: -3.21, z: -3.4969358}
+  m_LocalPosition: {x: -33.87, y: -3.21, z: -3.4969358}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1734912720}
@@ -4118,6 +4132,8 @@ MonoBehaviour:
   target: {fileID: 24189351}
   y_axis: -3.21
   blobSpeed: 2.5
+  leftWall: -54
+  rightWall: 67
 --- !u!58 &1819214493
 CircleCollider2D:
   m_ObjectHideFlags: 0
