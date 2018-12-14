@@ -29,21 +29,18 @@ public class StreetViewController : MonoBehaviour
                     switch (hit.collider.name)
                     {
                         case "hospital_door":
-                            //calendar_closeup appears
-                            _UIController.FadeToLevel(1);
+                            //nurse smoking text appears
+                            objectsToAppear[1].SetActive(true);
                             break;
                         case "library_door":
-                            //key appears
-                            objectsToAppear[1].SetActive(true);
-                            //calendar_closeup is destroyed
-                            Destroy(clickableObjects[1]);
+                            //go to library view
+                            _UIController.FadeToLevel(3);
                             break;
                         case "museum_door":
                             //key_text appears
-                            objectsToAppear[2].SetActive(true);
+                            objectsToAppear[0].SetActive(true);
                             break;
                     }
-
                 }
             }
         }
