@@ -56,8 +56,12 @@ public class LibraryController : MonoBehaviour {
                             objectsToAppear[2].SetActive(true);
                             break;
                         case "lockedBox":
-                            //open book appears after colorblind_book is destroyed
+                            //closeup_box appears
                             objectsToAppear[6].SetActive(true);
+                            break;
+                        case "exit_door":
+                            //closeup_box appears
+                            _UIController.FadeToLevel(6);
                             break;
 
                     }

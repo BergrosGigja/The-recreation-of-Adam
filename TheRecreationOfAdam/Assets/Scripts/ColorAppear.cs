@@ -22,7 +22,6 @@ public class ColorAppear : MonoBehaviour {
                 if (objInsideZone[i].tag == "ChangeColor" && objInScene.Contains<Collider2D>(objInsideZone[i]))
                 {
                     SpriteRenderer sprite = objInsideZone[i].GetComponent<SpriteRenderer>();
-                    Debug.Log("blob color is: " + blobColor + " + item: " + transform.name);
                     sprite.color = blobColor;
                 }
             }
