@@ -71,8 +71,6 @@ public class HospitalPuzzle : MonoBehaviour
                         case "hospital_room_chart":
                             //chart appears
                             objectsToAppear[5].SetActive(true);
-                            //black_chart is destroyed
-                            Destroy(clickableObjects[4]);
                             break;
                         case "exit_door":
                             if (m_blobFound)

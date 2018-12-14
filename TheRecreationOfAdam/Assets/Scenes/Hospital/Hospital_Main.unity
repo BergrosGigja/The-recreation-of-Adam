@@ -1264,7 +1264,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1540010769280666, guid: c7a41bf0a9e1c824eacce577bea40e23, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1540010769280666, guid: c7a41bf0a9e1c824eacce577bea40e23, type: 2}
       propertyPath: m_TagString
@@ -3652,8 +3652,6 @@ MonoBehaviour:
   target: {fileID: 1556670217}
   y_axis: -3.68
   blobSpeed: 2.5
-  leftWall: 0
-  rightWall: 0
 --- !u!1 &1675210519
 GameObject:
   m_ObjectHideFlags: 0
