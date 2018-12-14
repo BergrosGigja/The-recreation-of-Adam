@@ -41,6 +41,7 @@ public class DialogFancyPants : MonoBehaviour {
         Option04.SetActive(false);
 		Option05.SetActive(false);
 		Option06.SetActive(false);
+        FindObjectOfType<AudioManager>().Play("Fancy");
     }
 
     public void ChoiceOption1()
