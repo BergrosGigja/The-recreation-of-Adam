@@ -823,6 +823,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObjectToAppear: {fileID: 0}
   DeleteItemOnClick: 0
+  clickableObjects: []
 --- !u!212 &356402851
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1217,7 +1218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Fancy
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: c207d3ec9db76ed468d2e7351f84ebf6, type: 3}
     volume: 0.09
     pitch: 0
     loop: 0
@@ -7259,6 +7260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObjectToAppear: {fileID: 0}
   DeleteItemOnClick: 0
+  clickableObjects: []
 --- !u!212 &2095777266
 SpriteRenderer:
   m_ObjectHideFlags: 0

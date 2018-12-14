@@ -41,6 +41,7 @@ public class DialogOutsideScene : MonoBehaviour {
         Option04.SetActive(false);
 		Option05.SetActive(false);
 		Option06.SetActive(false);
+        FindObjectOfType<AudioManager>().Play("Joe");
     }
 
     public void ChoiceOption1()
