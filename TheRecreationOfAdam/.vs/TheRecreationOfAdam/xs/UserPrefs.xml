@@ -11,8 +11,9 @@
       <File FileName="Assets/Scripts/AdamControllerScript.cs" Line="30" Column="10" />
       <File FileName="Assets/Scripts/CheckCorrectNum.cs" Line="71" Column="2" />
       <File FileName="Assets/Scripts/ColorAppear.cs" Line="13" Column="5" />
-      <File FileName="Assets/Scripts/HospitalPuzzle.cs" Line="10" Column="35" />
-      <File FileName="Assets/Scripts/StreetViewController.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scripts/HospitalPuzzle.cs" Line="8" Column="25" />
+      <File FileName="Assets/Scripts/StreetViewController.cs" Line="37" Column="49" NotebookId="1" />
+      <File FileName="Assets/Scripts/LibraryController.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

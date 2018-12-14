@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 63957392}
   - component: {fileID: 63957393}
   - component: {fileID: 63957395}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: room1_paintingGreen
   m_TagString: ChangeColor
   m_Icon: {fileID: 0}
@@ -1351,7 +1351,7 @@ GameObject:
   - component: {fileID: 294970820}
   - component: {fileID: 294970821}
   - component: {fileID: 294970822}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: room1_paintingPurple
   m_TagString: ChangeColor
   m_Icon: {fileID: 0}
@@ -1530,8 +1530,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d57a621fdffa44fb88dbdf59304c8e95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObjectToAppear: {fileID: 0}
-  DeleteItemOnClick: 1
 --- !u!61 &306858467
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1831,7 +1829,7 @@ GameObject:
   - component: {fileID: 509775927}
   - component: {fileID: 509775928}
   - component: {fileID: 509775930}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: room2_button1
   m_TagString: ChangeColor
   m_Icon: {fileID: 0}
@@ -1932,7 +1930,7 @@ GameObject:
   - component: {fileID: 568822473}
   - component: {fileID: 568822474}
   - component: {fileID: 568822476}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: room2_painting_2
   m_TagString: ChangeColor
   m_Icon: {fileID: 0}
@@ -2090,8 +2088,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d57a621fdffa44fb88dbdf59304c8e95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObjectToAppear: {fileID: 0}
-  DeleteItemOnClick: 1
 --- !u!212 &581043388
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2307,7 +2303,7 @@ GameObject:
   - component: {fileID: 771797315}
   - component: {fileID: 771797316}
   - component: {fileID: 771797318}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: room2_button2
   m_TagString: ChangeColor
   m_Icon: {fileID: 0}
@@ -2556,7 +2552,7 @@ GameObject:
   - component: {fileID: 893626394}
   - component: {fileID: 893626395}
   - component: {fileID: 893626396}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: room2_painting_3
   m_TagString: ChangeColor
   m_Icon: {fileID: 0}
@@ -4573,8 +4569,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d57a621fdffa44fb88dbdf59304c8e95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObjectToAppear: {fileID: 1258779632}
-  DeleteItemOnClick: 0
 --- !u!61 &1971563210
 BoxCollider2D:
   m_ObjectHideFlags: 0
