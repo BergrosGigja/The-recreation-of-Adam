@@ -61,4 +61,9 @@ public class BlobFollow : MonoBehaviour {
             blobPos = new Vector2(transform.position.x, transform.position.y);
         }
     }
+
+    public void SetSpeed(float speed)
+    {
+        blobSpeed = speed;
+    }
 }
