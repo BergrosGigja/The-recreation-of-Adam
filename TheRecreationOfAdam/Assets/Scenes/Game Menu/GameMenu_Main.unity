@@ -1039,11 +1039,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
     sentences:
-    - 'Imagine a world that is radiant with colors and everybody is extremely happy.  You,
-      Adam, are walking down the main street of Blobbytown with the biggest smile
-      on your face. Everyone you meet greet you with smiles just as big. This day
-      is perfect. '
-    - 'Then all of a sudden you are hit by something hard and are knocked out. '
+    - 'In a world full of vibrant colors Adam is walking down the main street of Blobbytown.
+      Everyone is happy and smiling, but you feel something heavy on your heart. '
+    - 'Then all of a sudden you are hit by something and are knocked out. '
 --- !u!1001 &1010859729
 Prefab:
   m_ObjectHideFlags: 0
