@@ -7,6 +7,8 @@ public class BasementController : MonoBehaviour {
     public GameObject[] clickableObjects;
     public GameObject[] objectsToAppear;
     public Animator animator;
+    public Animator blobbyAnimator;
+    public Animator textAnimator;
     bool screwDriver;
 
  
@@ -37,6 +39,7 @@ public class BasementController : MonoBehaviour {
                             break;
                         case "ScrewdriverSmall":
                             objectsToAppear[0].SetActive(true);
+                            Destroy(clickableObjects[1]);
                             break;
                         case "screwdriverCloseUp":
                             objectsToAppear[1].SetActive(true);
@@ -57,6 +60,10 @@ public class BasementController : MonoBehaviour {
                             Destroy(objectsToAppear[3]);
                             Destroy(objectsToAppear[4]);
                             objectsToAppear[6].SetActive(true);
+                            break;
+                        case "blobbys":
+                            blobbyAnimator.SetBool("clicked", true);
+                            textAnimator.SetBool("clicked", true);
                             break;
                     }
                 }
