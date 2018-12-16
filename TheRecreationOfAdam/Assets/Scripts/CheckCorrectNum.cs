@@ -14,6 +14,7 @@ public class CheckCorrectNum : MonoBehaviour {
     public GameObject boxLid;
     public GameObject blob;
     public GameObject blobOnClose;
+    public GameObject door;
 
     void Start()
     {
@@ -31,6 +32,10 @@ public class CheckCorrectNum : MonoBehaviour {
                 {
                     Button1 = true;
                 }
+                else
+                {
+                    Button1 = false;
+                }
             }
             else if(child.name == "Button2")
             {
@@ -38,6 +43,10 @@ public class CheckCorrectNum : MonoBehaviour {
                 if (childText.text == "2")
                 {
                     Button2 = true;
+                }
+                else
+                {
+                    Button2 = false;
                 }
             }
             else if (child.name == "Button3")
@@ -47,6 +56,10 @@ public class CheckCorrectNum : MonoBehaviour {
                 {
                     Button3 = true;
                 }
+                else
+                {
+                    Button3 = false;
+                }
             }
             else if (child.name == "Button4")
             {
@@ -54,6 +67,10 @@ public class CheckCorrectNum : MonoBehaviour {
                 if (childText.text == "7")
                 {
                     Button4 = true;
+                }
+                else
+                {
+                    Button4 = false;
                 }
             }
         }
@@ -69,6 +86,7 @@ public class CheckCorrectNum : MonoBehaviour {
         blob.SetActive(true);
         Destroy(objToDestroy);
         allCorrect = true;
+        door.SetActive(true);
     }
 
     public void CheckIfBlobAppears()
