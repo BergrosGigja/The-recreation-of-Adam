@@ -28,7 +28,7 @@ public class DialogOutsideScene : MonoBehaviour {
        if(Activate.activeSelf == false)
        {
            SelectedAnswer = 0;
-           Joe.GetComponent<TextMeshProUGUI>().text = "One Eyed Joe: What do you want?";
+           Joe.GetComponent<TextMeshProUGUI>().text = "<b>One Eyed Joe:</b> What do you want?";
        }   
     }
 
@@ -46,7 +46,7 @@ public class DialogOutsideScene : MonoBehaviour {
 
     public void ChoiceOption1()
     {
-        Joe.GetComponent<TextMeshProUGUI>().text = "One Eyed Joe: It's Blobember 12th, 2239 you prick, For 5 dollars I can also tell you who's president of Blobbytown.";
+        Joe.GetComponent<TextMeshProUGUI>().text = "<b>One Eyed Joe:</b> It's Blobember 12th, 2239 you prick, For 5 dollars I can also tell you who's president of Blobbytown.";
         SelectedAnswer = 1;
         Option01.SetActive(false);
 		Option02.SetActive(false);
@@ -56,7 +56,7 @@ public class DialogOutsideScene : MonoBehaviour {
 
     public void ChoiceOption2()
     {
-        Joe.GetComponent<TextMeshProUGUI>().text = "One Eyed Joe: t's Blobember 12th, 2239 you prick, For 5 dollars I can also tell you who's president of Blobbytown.";
+        Joe.GetComponent<TextMeshProUGUI>().text = "<b>One Eyed Joe:</b> It's Blobember 12th, 2239 you prick, For 5 dollars I can also tell you who's president of Blobbytown.";
         SelectedAnswer = 2;
         Option01.SetActive(false);
 		Option02.SetActive(false);
@@ -66,7 +66,7 @@ public class DialogOutsideScene : MonoBehaviour {
 
     public void ChoiceOption3()
     {
-        Joe.GetComponent<TextMeshProUGUI>().text = "One Eyed Joe: Are you blind? We have the primary colors. Black and white along with every grey imaginable all around us.";
+        Joe.GetComponent<TextMeshProUGUI>().text = "<b>One Eyed Joe:</b> Are you blind? We have the primary colors. Black and white along with every grey imaginable all around us.";
         Option03.SetActive(false);
 		Option04.SetActive(false);
 		Option05.SetActive(true);
@@ -75,7 +75,7 @@ public class DialogOutsideScene : MonoBehaviour {
 
     public void ChoiceOption4()
     {
-        Joe.GetComponent<TextMeshProUGUI>().text = "One Eyed Joe: Are you blind? We have the primary colors. Black and white along with every grey imaginable all around us.";
+        Joe.GetComponent<TextMeshProUGUI>().text = "<b>One Eyed Joe:</b> Are you blind? We have the primary colors. Black and white along with every grey imaginable all around us.";
         SelectedAnswer = 4;
         Option03.SetActive(false);
 		Option04.SetActive(false);
@@ -85,7 +85,7 @@ public class DialogOutsideScene : MonoBehaviour {
 
 	public void ChoiceOption5()
     {
-        Joe.GetComponent<TextMeshProUGUI>().text = "One Eyed Joe: Yeah they are, it was in the news. After all the colors left, the council decided to make black and white the primary colors. If you need more information I suggest you go to the library.";
+        Joe.GetComponent<TextMeshProUGUI>().text = "<b>One Eyed Joe:</b> Yeah they are, it was in the news. After all the colors left, the council decided to make black and white the primary colors. If you need more information I suggest you go to the library.";
         SelectedAnswer = 5;
         Option05.SetActive(false);
 		Option06.SetActive(false);
@@ -93,7 +93,7 @@ public class DialogOutsideScene : MonoBehaviour {
 
 	public void ChoiceOption6()
     {
-        Joe.GetComponent<TextMeshProUGUI>().text = "One Eyed Joe: Yeah they are, it was in the news. After all the colors left, the council decided to make black and white the primary colors. If you need more information I suggest you go to the library.";
+        Joe.GetComponent<TextMeshProUGUI>().text = "<b>One Eyed Joe:</b> Yeah they are, it was in the news. After all the colors left, the council decided to make black and white the primary colors. If you need more information I suggest you go to the library.";
         SelectedAnswer = 6;
         Option05.SetActive(false);
 		Option06.SetActive(false);
