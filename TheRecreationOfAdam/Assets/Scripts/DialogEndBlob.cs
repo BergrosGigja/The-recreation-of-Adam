@@ -110,6 +110,6 @@ public class DialogEndBlob : MonoBehaviour {
     }
 
 	public void ChoiceBadGuy() {
-        _UIController.FadeToLevel(7);
+        _UIController.FadeToLevel(9);
     }
 }
