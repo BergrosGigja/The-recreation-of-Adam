@@ -6,7 +6,7 @@ using TMPro;
 
 public class DialogLibrarian : MonoBehaviour {
 	//creating the objects used for the dialog
-	 public GameObject Activate;
+	public GameObject Activate;
     public GameObject Exit;
     public GameObject librarian;
     public GameObject Option01;
@@ -70,7 +70,7 @@ public class DialogLibrarian : MonoBehaviour {
     public void ChoiceOption4()
     {
         librarian.GetComponent<TextMeshProUGUI>().text = "<b>Librarian:</b> (aggressively) Shhh...";
-        SelectedAnswer = 4;
+        SelectedAnswer = 4; 
         Option03.SetActive(false);
 		Option04.SetActive(false);
 	}

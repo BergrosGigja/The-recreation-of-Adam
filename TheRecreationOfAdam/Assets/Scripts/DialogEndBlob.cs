@@ -15,6 +15,7 @@ public class DialogEndBlob : MonoBehaviour {
     public GameObject Option04;
 	public GameObject Option05;
     public GameObject Option06;
+    UIController _UIController;
 
     public int SelectedAnswer;
 
@@ -22,7 +23,8 @@ public class DialogEndBlob : MonoBehaviour {
 	void Start () 
 	{
 		Activate.SetActive(false);
-	}
+        _UIController = FindObjectOfType<UIController>();
+    }
 	
 	// Update is called once per frame
 	void Update () 
@@ -103,10 +105,11 @@ public class DialogEndBlob : MonoBehaviour {
 	}
 
 	public void ChoiceGoodGuy(){
-		Debug.Log("Good guy");
-	}
+        _UIController.FadeToLevel(8);
+
+    }
 
 	public void ChoiceBadGuy() {
-		Debug.Log("Bad guy");
-	}
+        _UIController.FadeToLevel(7);
+    }
 }

@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Street View/StreetView2_Main.unity
     guid: a1798cf9c8c33403bb1ca22869eca0ff
+  - enabled: 1
+    path: Assets/Scenes/End/EndScene_bad.unity
+    guid: a0f2eb3d3075bd643953a5f9b37cfceb
+  - enabled: 1
+    path: Assets/Scenes/End/Credits.unity
+    guid: 40d06a8de4fce465d9ae43d7cb3ed779
   m_configObjects: {}
