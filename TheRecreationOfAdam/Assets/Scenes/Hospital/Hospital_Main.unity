@@ -1198,12 +1198,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1660512981937424, guid: 0c61d94bbf3214030bc0c46a13cb1d8a, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224716378427709046, guid: 0c61d94bbf3214030bc0c46a13cb1d8a,
         type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114903984531142298, guid: 0c61d94bbf3214030bc0c46a13cb1d8a,
         type: 2}
@@ -3665,7 +3665,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1556670217}
   y_axis: -3.68
+  scale: {x: 0, y: 0}
   blobSpeed: 2.5
+  x_axis: 0
 --- !u!1 &1675210519
 GameObject:
   m_ObjectHideFlags: 0
