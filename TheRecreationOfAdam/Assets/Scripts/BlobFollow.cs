@@ -6,57 +6,44 @@ public class BlobFollow : MonoBehaviour {
 
     public GameObject target;
     public float y_axis;
+    public Vector2 scale;
     public float blobSpeed;
     Vector2 targetPos;
+    public float x_axis;
     Vector2 blobPos;
-    bool right;
     Animator anim;
-    //public float leftWall;
-    //public float rightWall;
-    //Vector2 leftMost;
-    //Vector2 rightMost;
+
     // Use this for initialization
     void Start()
     {
         blobPos = transform.position;
-        right = false;
-        //leftMost = new Vector2 (leftWall, y_axis);
-        //rightMost = new Vector2 (rightWall, y_axis);
         anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        scale = target.gameObject.GetComponent<Transform>().localScale;
         targetPos = target.transform.position;
 
-       /* if(blobPos.x < leftWall)
+        if(scale.x == -1) 
         {
-                transform.position = leftMost;
-        }
-        else if(blobPos.x > rightWall)
+            x_axis = targetPos.x - 1.5f;
+        } else 
         {
-            transform.position = rightMost;
-        }*/
-        if(right)
-        {
-            blobPos = new Vector2(targetPos.x - 1.5f, y_axis);
-        }
-        else
-        {
-            blobPos = new Vector2(targetPos.x + 1.5f, y_axis);
+            x_axis = targetPos.x + 1.5f;
         }
 
+        blobPos = new Vector2(x_axis, y_axis);
         if ((blobPos.x >= transform.position.x))
         {
-            transform.localScale = new Vector2(1.0f, 1.0f);
-            right = false;
+            transform.localScale = scale;
         }
         else
         {
-            transform.localScale = new Vector2(-1.0f, 1.0f);
-            right = true;
+            transform.localScale = scale;
         }
+
         if (Vector2.Distance(blobPos, transform.position) > 0.2)
         {
             anim.SetBool("Walking", true);
@@ -65,6 +52,13 @@ public class BlobFollow : MonoBehaviour {
         else
         {
             anim.SetBool("Walking", false);
+        }
+    }
+
+    void OnCollisionStay2D(Collision2D other) {
+        if(other.gameObject.tag == "Wall") {
+            anim.SetBool("Walking", false);
+            blobPos = new Vector2(transform.position.x, transform.position.y);
         }
     }
 }
