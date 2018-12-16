@@ -10,10 +10,12 @@ public class CheckCorrectColor : MonoBehaviour {
     public GameObject door;
     public GameObject door_open;
     public GameObject obj_to_destroy;
+    public GameObject basement_door;
 
 
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update () {
         foreach (Transform child in transform)
         {
             if (child.name == "Button1")
@@ -23,6 +25,10 @@ public class CheckCorrectColor : MonoBehaviour {
                 {
                     Button1 = true;
                 }
+                else
+                {
+                    Button1 = false;
+                }
             }
             else if (child.name == "Button2")
             {
@@ -30,6 +36,10 @@ public class CheckCorrectColor : MonoBehaviour {
                 if (childText.text == "2")
                 {
                     Button2 = true;
+                }
+                else
+                {
+                    Button2 = false;
                 }
             }
             else if (child.name == "Button3")
@@ -39,6 +49,10 @@ public class CheckCorrectColor : MonoBehaviour {
                 {
                     Button3 = true;
                 }
+                else
+                {
+                    Button3 = false;
+                }
             }
         }
         if (Button1 && Button2 && Button3)
@@ -46,6 +60,7 @@ public class CheckCorrectColor : MonoBehaviour {
             Destroy(obj_to_destroy);
             door.SetActive(false);
             door_open.SetActive(true);
+            basement_door.SetActive(true);
         }
     }
 
