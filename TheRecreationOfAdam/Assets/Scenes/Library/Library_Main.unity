@@ -2731,6 +2731,31 @@ Prefab:
       propertyPath: m_AnchoredPosition.y
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 114585296522656228, guid: 465bd58eca49e57488f2f32a7e817c83,
+        type: 2}
+      propertyPath: m_text
+      value: I'm looking for some information on the color disappearance.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114585296522656228, guid: 465bd58eca49e57488f2f32a7e817c83,
+        type: 2}
+      propertyPath: m_textInfo.characterCount
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 114590283747551370, guid: 465bd58eca49e57488f2f32a7e817c83,
+        type: 2}
+      propertyPath: m_text
+      value: Get me all the documents you have on the color disappearance.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114590283747551370, guid: 465bd58eca49e57488f2f32a7e817c83,
+        type: 2}
+      propertyPath: m_textInfo.characterCount
+      value: 61
+      objectReference: {fileID: 0}
+    - target: {fileID: 114585296522656228, guid: 465bd58eca49e57488f2f32a7e817c83,
+        type: 2}
+      propertyPath: m_textInfo.wordCount
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 465bd58eca49e57488f2f32a7e817c83, type: 2}
   m_IsPrefabAsset: 0

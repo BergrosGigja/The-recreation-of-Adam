@@ -468,9 +468,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 2094170547}
   y_axis: -5.8
+  scale: {x: 0, y: 0}
   blobSpeed: 2.5
-  leftWall: 0
-  rightWall: 0
+  x_axis: 0
 --- !u!1 &220191777
 GameObject:
   m_ObjectHideFlags: 0
@@ -1575,6 +1575,7 @@ MonoBehaviour:
   door: {fileID: 1607288138}
   door_open: {fileID: 1037278142}
   obj_to_destroy: {fileID: 1258779632}
+  basement_door: {fileID: 581043384}
 --- !u!114 &421350124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1978,7 +1979,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &581043385
 Transform:
   m_ObjectHideFlags: 0
@@ -2062,7 +2063,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 221576759
   m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: f36d471fe290f41a7bf7e662cf29fb0d, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -3052,7 +3053,8 @@ Prefab:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114836407913886512, guid: 0c15b040e727ec6429084ed2d27183b7, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 0c15b040e727ec6429084ed2d27183b7, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &1113069245 stripped
@@ -3078,9 +3080,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 2094170547}
   y_axis: -5.8
+  scale: {x: 0, y: 0}
   blobSpeed: 2.3
-  leftWall: 0
-  rightWall: 0
+  x_axis: 0
 --- !u!1 &1119930101
 GameObject:
   m_ObjectHideFlags: 0

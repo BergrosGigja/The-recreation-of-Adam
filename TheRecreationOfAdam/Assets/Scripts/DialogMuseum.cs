@@ -28,7 +28,7 @@ public class DialogMuseum : MonoBehaviour {
        if(Activate.activeSelf == false)
        {
            SelectedAnswer = 0;
-           Person.GetComponent<TextMeshProUGUI>().text = "Museum lady: Welcome to the Blobby Museum. How may I hep you today?";
+           Person.GetComponent<TextMeshProUGUI>().text = "<b>Museum lady:</b> Welcome to the Blobby Museum. How may I hep you today?";
        }   
     }
 
@@ -46,7 +46,7 @@ public class DialogMuseum : MonoBehaviour {
 
     public void ChoiceOption1()
     {
-        Person.GetComponent<TextMeshProUGUI>().text = "Museum lady: Sure sweetie, admission is free today.";
+        Person.GetComponent<TextMeshProUGUI>().text = "<b>Museum lady:</b> Sure sweetie, admission is free today.";
         SelectedAnswer = 1;
         Option01.SetActive(false);
 		Option02.SetActive(false);
@@ -56,7 +56,7 @@ public class DialogMuseum : MonoBehaviour {
 
     public void ChoiceOption2()
     {
-        Person.GetComponent<TextMeshProUGUI>().text = "Museum lady: Sure sweetie, admission is free today.";
+        Person.GetComponent<TextMeshProUGUI>().text = "<b>Museum lady:</b> Sure sweetie, admission is free today.";
         SelectedAnswer = 2;
         Option01.SetActive(false);
 		Option02.SetActive(false);
@@ -66,7 +66,7 @@ public class DialogMuseum : MonoBehaviour {
 
     public void ChoiceOption3()
     {
-        Person.GetComponent<TextMeshProUGUI>().text = "Museum lady: Back in the good'ol days we used to have another exhibition room downstairs. But it's been locked for years. Someone changed the door-code and we don't know how to get in.";
+        Person.GetComponent<TextMeshProUGUI>().text = "<b>Museum lady:</b> Back in the good'ol days we used to have another exhibition room downstairs. But it's been locked for years. Someone changed the door-code and we don't know how to get in.";
         Option03.SetActive(false);
 		Option04.SetActive(false);
 		Option05.SetActive(true);
@@ -75,7 +75,7 @@ public class DialogMuseum : MonoBehaviour {
 
     public void ChoiceOption4()
     {
-        Person.GetComponent<TextMeshProUGUI>().text = "Museum lady: Back in the good'ol days we used to have another exhibition room downstairs. But it's been locked for years. Someone changed the door-code and we don't know how to get in. ";
+        Person.GetComponent<TextMeshProUGUI>().text = "<b>Museum lady:</b> Back in the good'ol days we used to have another exhibition room downstairs. But it's been locked for years. Someone changed the door-code and we don't know how to get in. ";
         SelectedAnswer = 4;
         Option03.SetActive(false);
 		Option04.SetActive(false);
@@ -85,7 +85,7 @@ public class DialogMuseum : MonoBehaviour {
 
 	public void ChoiceOption5()
     {
-        Person.GetComponent<TextMeshProUGUI>().text = "Museum lady: Okay sweetie, enjoy.";
+        Person.GetComponent<TextMeshProUGUI>().text = "<b>Museum lady:</b> Okay sweetie, enjoy.";
         SelectedAnswer = 5;
         Option05.SetActive(false);
 		Option06.SetActive(false);
@@ -93,7 +93,7 @@ public class DialogMuseum : MonoBehaviour {
 
 	public void ChoiceOption6()
     {
-        Person.GetComponent<TextMeshProUGUI>().text = "Museum lady: Okay sweetie, enjoy.";
+        Person.GetComponent<TextMeshProUGUI>().text = "<b>Museum lady:</b> Okay sweetie, enjoy.";
         SelectedAnswer = 6;
         Option05.SetActive(false);
 		Option06.SetActive(false);

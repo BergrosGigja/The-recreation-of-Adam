@@ -28,7 +28,7 @@ public class DialogFancyPants : MonoBehaviour {
        if(Activate.activeSelf == false)
        {
            SelectedAnswer = 0;
-           Person.GetComponent<TextMeshProUGUI>().text = "Fancy Pants: What? I'm in a hurry";
+           Person.GetComponent<TextMeshProUGUI>().text = "<b>Fancy Pants:</b> What? I'm in a hurry";
        }   
     }
 
@@ -46,7 +46,7 @@ public class DialogFancyPants : MonoBehaviour {
 
     public void ChoiceOption1()
     {
-        Person.GetComponent<TextMeshProUGUI>().text = "Fancy Pants: Fine, make quick. I'm on my way to seef 50 shades of grey.";
+        Person.GetComponent<TextMeshProUGUI>().text = "<b>Fancy Pants:</b> Fine, make quick. I'm on my way to see 50 shades of grey.";
         SelectedAnswer = 1;
         Option01.SetActive(false);
 		Option02.SetActive(false);
@@ -56,7 +56,7 @@ public class DialogFancyPants : MonoBehaviour {
 
     public void ChoiceOption2()
     {
-        Person.GetComponent<TextMeshProUGUI>().text = "Fancy Pants: Fine, make quick. I'm on my way to seef 50 shades of grey.";
+        Person.GetComponent<TextMeshProUGUI>().text = "<b>Fancy Pants:</b> Fine, make quick. I'm on my way to see 50 shades of grey.";
         SelectedAnswer = 2;
         Option01.SetActive(false);
 		Option02.SetActive(false);
@@ -66,7 +66,7 @@ public class DialogFancyPants : MonoBehaviour {
 
     public void ChoiceOption3()
     {
-        Person.GetComponent<TextMeshProUGUI>().text = "Fancy Pants: Ugh, well I did see something wierd in the museum today.. They call that art?";
+        Person.GetComponent<TextMeshProUGUI>().text = "<b>Fancy Pants:</b> Ugh, well I did see something weird in the museum today.. They call that art?";
         Option03.SetActive(false);
 		Option04.SetActive(false);
 		Option05.SetActive(true);
@@ -75,7 +75,7 @@ public class DialogFancyPants : MonoBehaviour {
 
     public void ChoiceOption4()
     {
-        Person.GetComponent<TextMeshProUGUI>().text = "Fancy Pants: Ugh, well I did see something wierd in the museum today.. They call that art?";
+        Person.GetComponent<TextMeshProUGUI>().text = "<b>Fancy Pants:</b> Ugh, well I did see something weird in the museum today.. They call that art?";
         SelectedAnswer = 4;
         Option03.SetActive(false);
 		Option04.SetActive(false);
@@ -85,7 +85,7 @@ public class DialogFancyPants : MonoBehaviour {
 
 	public void ChoiceOption5()
     {
-        Person.GetComponent<TextMeshProUGUI>().text = "Fancy Pants: I really need to go the show is starting.";
+        Person.GetComponent<TextMeshProUGUI>().text = "<b>Fancy Pants:</b> I really need to go the show is starting.";
         SelectedAnswer = 5;
         Option05.SetActive(false);
 		Option06.SetActive(false);
@@ -93,7 +93,7 @@ public class DialogFancyPants : MonoBehaviour {
 
 	public void ChoiceOption6()
     {
-        Person.GetComponent<TextMeshProUGUI>().text = "Fancy Pants: I really need to go the show is starting.";
+        Person.GetComponent<TextMeshProUGUI>().text = "<b>Fancy Pants:</b> I really need to go the show is starting.";
         SelectedAnswer = 6;
         Option05.SetActive(false);
 		Option06.SetActive(false);
