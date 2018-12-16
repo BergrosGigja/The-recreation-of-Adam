@@ -18,6 +18,7 @@ TagManager:
   - HoverItem
   - DestroyItem
   - blob
+  - music
   layers:
   - Default
   - TransparentFX
