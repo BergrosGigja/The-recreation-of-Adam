@@ -86,7 +86,7 @@ public class NurseDialog : MonoBehaviour
 
     public void ChoiceOption5()
     {
-        nurse.GetComponent<TextMeshProUGUI>().text = "Nurse: Personally I think the gray gives the place more personality that it had before. Now please go bother someone else... I have work to do.";
+        nurse.GetComponent<TextMeshProUGUI>().text = "Nurse: Personally I think the gray gives the place more personality than it had before. Now please go bother someone else... I have work to do.";
         SelectedAnswer = 5;
         Option05.SetActive(false);
 		Option06.SetActive(false);
