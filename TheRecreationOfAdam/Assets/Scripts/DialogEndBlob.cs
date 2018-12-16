@@ -30,7 +30,7 @@ public class DialogEndBlob : MonoBehaviour {
 		if(Activate.activeSelf == false)
        {
            SelectedAnswer = 0;
-           endBlobs.GetComponent<TextMeshProUGUI>().text = "White: Adam... is that really you? We thought we'd never see you again.";
+           endBlobs.GetComponent<TextMeshProUGUI>().text = "<b>White:</b> Adam... is that really you? We thought we'd never see you again.";
        } 
 	}
 
@@ -71,7 +71,7 @@ public class DialogEndBlob : MonoBehaviour {
 
     public void ChoiceOption1()
     {
-        endBlobs.GetComponent<TextMeshProUGUI>().text = "White: Bro... you don't remember us? We were your best friends, at least before you disappeared...";
+        endBlobs.GetComponent<TextMeshProUGUI>().text = "<b>White:</b> Bro... you don't remember us? We were your best friends, at least before you disappeared...";
 		SelectedAnswer = 1;
         Option01.SetActive(false);
 		Option02.SetActive(true);
@@ -79,7 +79,7 @@ public class DialogEndBlob : MonoBehaviour {
 
     public void ChoiceOption2()
     {
-        endBlobs.GetComponent<TextMeshProUGUI>().text = "White: Well yeah, isn't this great? Your plan worked just like you said it would!";
+        endBlobs.GetComponent<TextMeshProUGUI>().text = "<b>White:</b> Well yeah, isn't this great? Your plan worked just like you said it would!";
 		SelectedAnswer = 2;
 		Option02.SetActive(false);
 		Option03.SetActive(true);
@@ -87,7 +87,7 @@ public class DialogEndBlob : MonoBehaviour {
 
 	public void ChoiceOption3()
     {
-        endBlobs.GetComponent<TextMeshProUGUI>().text = "White: Yes, they were all happy... but not us. After the council decided me and Black were not colors anymore they treated us like trash. You too, because you were the only black and white blob in Blobbytown.";
+        endBlobs.GetComponent<TextMeshProUGUI>().text = "<b>White:</b> Yes, they were all happy... but not us. After the council decided me and Black were not colors anymore they treated us like trash. You too, because you were the only black and white blob in Blobbytown.";
 		SelectedAnswer = 3;
 		Option03.SetActive(false);
 		Option04.SetActive(true);
