@@ -105,11 +105,11 @@ public class DialogEndBlob : MonoBehaviour {
 	}
 
 	public void ChoiceGoodGuy(){
-        _UIController.FadeToLevel(8);
+        _UIController.FadeToLevel(9);
 
     }
 
 	public void ChoiceBadGuy() {
-        _UIController.FadeToLevel(9);
+        _UIController.FadeToLevel(7);
     }
 }
