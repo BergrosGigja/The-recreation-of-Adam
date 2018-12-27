@@ -1367,8 +1367,8 @@ MonoBehaviour:
   dialog:
     sentences:
     - 'In a world full of vibrant colors Adam is walking down the main street of Blobbytown.
-      Everyone is happy and smiling, but you feel something heavy on your heart. '
-    - 'Then all of a sudden you are hit by something and are knocked out. '
+      Everyone is happy and smiling, but he feels something heavy on his heart. '
+    - Then all of a sudden he gets hit by something hard...
 --- !u!1001 &1010859729
 PrefabInstance:
   m_ObjectHideFlags: 0
