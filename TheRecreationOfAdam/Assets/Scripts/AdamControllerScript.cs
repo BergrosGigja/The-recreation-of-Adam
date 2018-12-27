@@ -10,6 +10,8 @@ public class AdamControllerScript : MonoBehaviour {
 	Vector2 mouse;
     private float speed = 3f;
 
+    public AudioSource audioS;
+
 	void Start () {
 
 		anim = GetComponent<Animator>();
@@ -20,6 +22,10 @@ public class AdamControllerScript : MonoBehaviour {
         }
         
 	}
+
+    void FixedUpdate() {
+        PlaySteps();
+    }
 
 	void Update () {
         if (Input.GetMouseButton(0)) {
@@ -39,7 +45,6 @@ public class AdamControllerScript : MonoBehaviour {
             transform.position = Vector2.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
         } else {
 			anim.SetBool("walking", false);
-            //FindObjectOfType<AudioManager>().Play("Walking");
 		}
     }
 
@@ -47,6 +52,16 @@ public class AdamControllerScript : MonoBehaviour {
         if(other.gameObject.tag == "Wall") {
             anim.SetBool("walking", false);
             targetPos = new Vector2(transform.position.x, transform.position.y);
+        }
+    }
+
+    void PlaySteps() {
+        if (Vector2.Distance(targetPos, transform.position) > 0.2) {
+            audioS.enabled = true;
+            audioS.loop = true;
+        } else {
+            audioS.enabled = false;
+            audioS.loop = false;
         }
     }
 }
