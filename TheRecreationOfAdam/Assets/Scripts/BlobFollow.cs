@@ -13,11 +13,17 @@ public class BlobFollow : MonoBehaviour {
     Vector2 blobPos;
     Animator anim;
 
+    public AudioSource audioS;
+
     // Use this for initialization
     void Start()
     {
         blobPos = transform.position;
         anim = GetComponent<Animator>();
+    }
+
+    void FixedUpdate() {
+        PlayBoing();
     }
 
     // Update is called once per frame
@@ -65,5 +71,15 @@ public class BlobFollow : MonoBehaviour {
     public void SetSpeed(float speed)
     {
         blobSpeed = speed;
+    }
+
+    void PlayBoing() {
+        if (Vector2.Distance(blobPos, transform.position) > 0.2) {
+            audioS.enabled = true;
+            audioS.loop = true;
+        } else {
+            audioS.enabled = false;
+            audioS.loop = false;
+        }
     }
 }

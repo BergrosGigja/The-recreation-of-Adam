@@ -97,7 +97,7 @@ public class DialogEndBlob : MonoBehaviour {
 
     public void ChoiceOption4()
     {
-        endBlobs.GetComponent<TextMeshProUGUI>().text = "You made a plan to get our revenge by getting rid of all the colors. So do you want to help us or give up and let things go back to the way they were?";
+        endBlobs.GetComponent<TextMeshProUGUI>().text = "<b>White:</b> You made a plan to get our revenge by getting rid of all the colors. So do you want to help us or give up and let things go back to the way they were?";
         SelectedAnswer = 4;
 		Option04.SetActive(false);
 		Option05.SetActive(true);

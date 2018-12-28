@@ -28,7 +28,7 @@ public class DialogMuseum : MonoBehaviour {
        if(Activate.activeSelf == false)
        {
            SelectedAnswer = 0;
-           Person.GetComponent<TextMeshProUGUI>().text = "<b>Museum lady:</b> Welcome to the Blobby Museum. How may I hep you today?";
+           Person.GetComponent<TextMeshProUGUI>().text = "<b>Museum lady:</b> Welcome to the Blobby Museum. How may I help you today?";
        }   
     }
 

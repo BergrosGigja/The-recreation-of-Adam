@@ -10,6 +10,10 @@ public class HospitalPuzzle : MonoBehaviour
     bool m_blobFound;
     UIController _UIController;
 
+    public AudioSource creak;
+    public AudioSource key;
+    public AudioSource anything;
+
     // Use this for initialization
     void Start()
     {
@@ -38,12 +42,14 @@ public class HospitalPuzzle : MonoBehaviour
                             objectsToAppear[0].SetActive(true);
                             //calendar_with_key is destroyed
                             Destroy(clickableObjects[0]);
+                            anything.Play();
                             break;
                         case "calendar_closeup":
                             //key appears
                             objectsToAppear[1].SetActive(true);
                             //calendar_closeup is destroyed
                             Destroy(clickableObjects[1]);
+                            key.Play();
                             break;
                         case "key":
                             //key_text appears
@@ -55,6 +61,7 @@ public class HospitalPuzzle : MonoBehaviour
                         case "drawer_closed":
                             if(m_keyClicked)
                             {
+                                creak.Play();
                                 //blob
                                 objectsToAppear[3].SetActive(true);
                                 m_blobFound = true;
@@ -70,6 +77,7 @@ public class HospitalPuzzle : MonoBehaviour
                             break;
                         case "hospital_room_chart":
                             //chart appears
+                            anything.Play();
                             objectsToAppear[5].SetActive(true);
                             break;
                         case "exit_door":
