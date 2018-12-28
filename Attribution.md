@@ -1,6 +1,6 @@
 # Attribuition
 
-##Art
+## Art
 Most of the borrowed art used for this project has been altered in some way.
 
 Name | Link
@@ -13,12 +13,14 @@ American Gothic | [:art:](https://jazzmena.files.wordpress.com/2012/07/grant_dev
 Exclamation mark | [:art:](https://cdn4.iconfinder.com/data/icons/hand-drawn-set-1/100/hand_drawn-87-512.png)
 Intro background | [:art:](https://i1.wp.com/www.copiaguechamber.org/wp-content/uploads/2017/09/background-dark-metal.jpg)
 
-##Font
+## Font
+
 Name | Link
 ------------ | -------------
 Amatic SC | [:memo:](https://fonts.google.com/specimen/Amatic+SC)
 
-##Sound
+## Sound
+
 Use | Author | Link
 ------------ | ------------- | -------------
 Background Intro | Andrewkn | [:notes:](https://freesound.org/people/Andrewkn/sounds/454814/)
