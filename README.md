@@ -19,7 +19,7 @@ Our team **One Hit Wonders** consists of:
 
 ### **Íris Dögg Skarphéðinsdóttir** @irisdogg
 * Team leader
-* Shaders
+* Lead programmer
 
 ### Attribution to assets used but not created by us can be found [here](https://github.com/BergrosGigja/The-recreation-of-Adam/blob/master/Attribution.md)
 
