@@ -11,7 +11,10 @@ public class BasementController : MonoBehaviour {
     public Animator textAnimator;
     bool screwDriver;
 
- 
+    public AudioSource creak;
+    public AudioSource intense;
+    public AudioSource button;
+
     // Use this for initialization
     void Start()
     {
@@ -35,6 +38,7 @@ public class BasementController : MonoBehaviour {
                     {
                         case "paintingButton":
                             //painting starts to move
+                            creak.Play();
                             animator.SetBool("movePainting", true);
                             break;
                         case "ScrewdriverSmall":
@@ -59,6 +63,8 @@ public class BasementController : MonoBehaviour {
                         case "button":
                             Destroy(objectsToAppear[3]);
                             Destroy(objectsToAppear[4]);
+                            button.Play();
+                            intense.Play();
                             objectsToAppear[6].SetActive(true);
                             break;
                         case "blobbys":
