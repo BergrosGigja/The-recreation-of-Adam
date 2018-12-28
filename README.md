@@ -1,11 +1,42 @@
 # The Recreation Of Adam :video_game:
-## A game created for the course T-624-CGDD at Reykjavik University
+## A game created for the course T-624-CGDD @Reykjavik University
 ![The Recreation Of Adam](https://i.imgur.com/K4zCwNH.png)
 
-After an accident, Adam wakes up in a hospital without any memories on what had happened.
-The world he wakes up in is very different from the world he used to know.
-Everything that once was vibrant and colorful is now black and white.
-help Adam find the colors and discover what happened to them.
+## [Press here to Play!](https://simmer.io/@Adam/therecreationofadam)
 
-Use the mouse to help Adam walk around and to interact with the other characters
+This Game was developed in the 3 week course: Computer Game Design & Development.  
+Our team **One Hit Wonders** consists of:
 
+### **Anna Lára Sigurðardóttir** @Annasig95
+* Dialog mechanics
+* Adding sound
+
+### **Bergrós Gígja Þorsteinsdóttir** @BergrosGigja
+* Artist
+* Character movement & animations
+* Dialog writing
+
+### **Íris Dögg Skarphéðinsdóttir** @irisdogg
+* Team leader
+* Shaders
+
+### Attribution to assets used but not created by us can be found [here](https://github.com/BergrosGigja/The-recreation-of-Adam/blob/master/Attribution.md)
+
+## Context
+
+The is a 2D scroll view game set in Blobbytown, a black and white town with a sinister atmosphere.
+After an accident, Adam wakes up in a hospital without any memories of what had happened. The world he wakes up in, is very different from the world he used to know, as it used to be so vibrant and colorful. He decides to embark on the journey of finding the colors and what happened to them. As the story unravels he will soon discover the truth and be faced with the decisions regarding Blobbytowns future. The gloomy theme of the game is combined with a dark humorous aspect.
+
+![](https://media.giphy.com/media/f9RmPAAKmRBEPKClE2/giphy.gif)
+
+## How to play
+
+This game used mouse click controls. Point and click on the floor to help Adam walk. You can also click on people to talk to them and click on items to see them up close.
+
+![](https://media.giphy.com/media/1rM1e6I7IEvxhbEMZr/giphy.gif)
+
+## Design Goals
+
+Our desired goal is that the player will feel adventurous as he goes through the story while feeling delighted over the many details in the game. We added a problem solving aspect to the game to challenge the player and make him feel accomplished when he finds the colors. While the story keeps players interested, they should also feel creative as their actions have effect on how colors appear in the world.
+
+![](https://media.giphy.com/media/21SpDc0lR7smrrMCvq/giphy.gif)
