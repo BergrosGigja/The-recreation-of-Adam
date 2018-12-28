@@ -9,13 +9,13 @@ Our team **One Hit Wonders** consists of:
 
 ### **Anna Lára Sigurðardóttir** @Annasig95
 * Dialog mechanics
-* Adding character sounds
+* Character sounds
 
 ### **Bergrós Gígja Þorsteinsdóttir** @BergrosGigja
 * Art & animations
 * Camera & character movement
 * Dialog writing
-* Adding sound effects
+* Sound effects
 
 ### **Íris Dögg Skarphéðinsdóttir** @irisdogg
 * Team leader
