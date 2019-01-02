@@ -71,6 +71,9 @@ public class BasementController : MonoBehaviour {
                             blobbyAnimator.SetBool("clicked", true);
                             textAnimator.SetBool("clicked", true);
                             break;
+                        case "highlight_door":
+                            objectsToAppear[7].SetActive(true);
+                            break;
                     }
                 }
             }
