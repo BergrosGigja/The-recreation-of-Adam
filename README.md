@@ -32,7 +32,7 @@ After an accident, Adam wakes up in a hospital without any memories of what had 
 
 ## How to play
 
-This game used mouse click controls. Point and click on the floor to help Adam walk. You can also click on people to talk to them and click on items to see them up close.
+This game uses mouse click controls. Point and click on the floor to help Adam walk. You can also click on people to talk to them and on items to see them up close.
 
 ![](https://media.giphy.com/media/1rM1e6I7IEvxhbEMZr/giphy.gif)
 
