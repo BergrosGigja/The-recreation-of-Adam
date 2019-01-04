@@ -2,7 +2,7 @@
 ## A game created for the course T-624-CGDD @Reykjavik University
 ![The Recreation Of Adam](https://i.imgur.com/K4zCwNH.png)
 
-## [Press here to Play!](https://simmer.io/@Adam/therecreationofadam)
+## [Press here to Play!](https://onehitwonders.itch.io/the-recreation-of-adam)
 
 This Game was developed in the 3 week course: Computer Game Design & Development.  
 Our team **One Hit Wonders** consists of:
