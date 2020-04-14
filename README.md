@@ -28,7 +28,7 @@ Our team **One Hit Wonders** consists of:
 The is a 2D scroll view game set in Blobbytown, a black and white town with a sinister atmosphere.
 After an accident, Adam wakes up in a hospital without any memories of what had happened. The world he wakes up in, is very different from the world he used to know, as it used to be so vibrant and colorful. He decides to embark on the journey of finding the colors and what happened to them. As the story unravels he will soon discover the truth and be faced with the decisions regarding Blobbytowns future. The gloomy theme of the game is combined with a dark humorous aspect.
 
-![](https://i.imgur.com/zSuQSEd.gif)
+![](https://i.imgur.com/kqcoUzD.gif)
 
 ## How to play
 
